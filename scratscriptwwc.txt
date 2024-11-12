@@ -1,0 +1,8 @@
+
+"skeleton"
+{
+	"base" 			"helix"
+	"title" 		"Scratscript WWC"
+	"author" 		"scratknapp"
+	"menusystem"	"1"
+}
