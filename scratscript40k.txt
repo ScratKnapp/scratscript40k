@@ -2,7 +2,7 @@
 "skeleton"
 {
 	"base" 			"helix"
-	"title" 		"Scratscript WWC"
+	"title" 		"Scratscript 40k"
 	"author" 		"scratknapp"
 	"menusystem"	"1"
 }

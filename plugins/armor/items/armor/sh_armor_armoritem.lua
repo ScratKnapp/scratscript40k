@@ -1,0 +1,10 @@
+ITEM.name = "Armor Item"
+ITEM.model = "models/props_c17/SuitCase_Passenger_Physics.mdl"
+ITEM.description = "Shows up when on ground or in inventory."
+ITEM.longdesc = "Shows up when in inventory only."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.newSkin = 0
+ITEM.bodygroupsub = {0}

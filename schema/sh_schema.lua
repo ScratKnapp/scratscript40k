@@ -2,7 +2,7 @@
 -- The shared init file. You'll want to fill out the info for your schema and include any other files that you need.
 
 -- Schema info
-Schema.name = "Skeleton"
+Schema.name = "Scratscipt WWC"
 Schema.author = "nebulous"
 Schema.description = "A base schema for development."
 
@@ -20,7 +20,12 @@ ix.util.Include("sv_schema.lua")
 ix.util.Include("cl_hooks.lua")
 ix.util.Include("sh_hooks.lua")
 ix.util.Include("sv_hooks.lua")
+ix.util.Include("libs/thirdparty/sh_netstream2.lua")
 
 -- You'll need to manually include files in the meta/ folder, however.
 ix.util.Include("meta/sh_character.lua")
 ix.util.Include("meta/sh_player.lua")
+
+ix.flag.Add("N", "Event/Customization")
+ix.flag.Add("1", "Trade")
+
