@@ -107,5 +107,24 @@ ix.command.Add("CharShowSkills", {
 		
 		return str
 	end 
-	})
+})
+
+ix.command.Add("CharTestBackground", {
+    description = "Show skill values for given character.",
+    privilege = "Manage Character Attributes",
+    adminOnly = true,
+    arguments = {
+        ix.type.character
+    },
+
+    OnRun = function(self, client, target)
+
+        client:Notify(target:GetRaceBonus("strength"))
+
+        
+
+        
+      
+    end 
+})
 

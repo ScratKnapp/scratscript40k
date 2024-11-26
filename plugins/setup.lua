@@ -14,8 +14,8 @@ function PLUGIN:PlayerLoadedCharacter(client, character, currentChar)
       client:Notify("No Race selected - defaulting to Human.")
     end
 
-    if character:GetBackground() == "Human" then
-      client:Notify("As a Human, you may apply a +1 bonus to any Skill. Use /humanbonus to select your skill.")
+    if character:GetBackground() == "Human" or character:GetBackground() == "Amphi" then
+      client:Notify("Your chosen race allows to apply a +1 bonus to any Skill. Use /racebonus to select your skill.")
     else
       character:SetData("RaceSetup", true)
     end 
@@ -25,15 +25,15 @@ function PLUGIN:PlayerLoadedCharacter(client, character, currentChar)
 
 end
 
-ix.command.Add("HumanBonus", {
-  description = "If you're a Human, choose the skill you want to recieve a bonus.",
+ix.command.Add("RaceBonus", {
+  description = "If you're a Human or Amphi, choose the skill you want to recieve a bonus.",
   arguments = ix.type.string,
   OnRun = function(self, client, skill)
 
     local skill = string.lower(skill)
 
-    if client:GetCharacter():GetBackground() ~= "Human" then 
-      client:Notify("You are not a Human!")
+    if client:GetCharacter():GetBackground() ~= "Human" and client:GetCharacter():GetBackground() ~= "Amphi" then 
+      client:Notify("Your Race does not offer a choice of skill bonus!")
       return
     end 
   
@@ -49,7 +49,7 @@ ix.command.Add("HumanBonus", {
       return
     end 
 
-    client:GetCharacter():SetData("HumanBonus", skill)
+    client:GetCharacter():SetData("RaceBonus", skill)
     client:Notify("You've chosen to boost your rolls with the " .. skill .. " skill.")
     client:GetCharacter():SetData("RaceSetup", true)
 

@@ -17,6 +17,7 @@ function ix.backgrounds.LoadFromDir(directory)
 
 			BACKGROUND.name = BACKGROUND.name or "Unknown"
 			BACKGROUND.description = BACKGROUND.description or "No description available."
+			BACKGROUND.bonuses = BACKGROUND.bonuses or {}
 
 			ix.backgrounds.list[niceName] = BACKGROUND
 		BACKGROUND = nil
@@ -87,6 +88,33 @@ do
 
 			return false
 		end
+
+		function charMeta:GetRaceBonus(attribute)
+
+			local background = self:GetBackground()
+			local bonuses
+
+			if self:GetData("RaceBonus") and attribute == self:GetData("RaceBonus") then
+				return 1
+			end 
+			
+			for k, v in pairs(ix.backgrounds.list) do
+	
+				if v.name == background then 
+					bonuses = v.bonuses
+				end 
+			end 
+	
+			if bonuses[attribute] then
+				return (bonuses[attribute])
+			else
+				return 0
+			end 
+	
+		end
+		
+
+
 	else
 		net.Receive( "ixTraitUpdate", function()
 			local id = net.ReadUInt(32)
