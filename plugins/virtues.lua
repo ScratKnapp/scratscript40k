@@ -18,7 +18,14 @@ function charMeta:GetCourage()
 end 
 
 function charMeta:GetSanity()
-   return self:GetConscience() + self:GetSelfControl() 
+
+    local sanity = self:GetConscience() + self:GetSelfControl()
+
+    if self:GetBackground() == "Gland Warrior" then
+        sanity = sanity - 2
+    end
+
+    return sanity 
 end 
 
 function charMeta:GetWillpower()

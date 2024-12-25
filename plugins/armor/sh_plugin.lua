@@ -65,3 +65,19 @@ else
 		end
 	end)
 end
+
+
+ix.command.Add("ArmorTest", {
+	description = "Assign a profession to a character. Wipes their old one.",
+	adminOnly = true,
+	OnRun = function(self, client)
+		char = client:GetCharacter()
+
+		if char:IsHuman() then
+			return "True"
+		else
+			return "False"
+		end 
+		
+	end
+})

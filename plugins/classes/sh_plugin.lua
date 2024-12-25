@@ -66,12 +66,10 @@ ix.command.Add("CharSetClass", {
 					})
 
 					return "Assigned Secondary class " .. Class.name .. " to " .. target:GetName() .. " at Level " .. Class.level
-				else 
-					return "Class not found!"
 				end 
-
 			end
-			
+
+			return "Class not found!"			
 		end 
 
 		if slot == 3 then

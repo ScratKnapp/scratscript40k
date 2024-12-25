@@ -109,22 +109,20 @@ ix.command.Add("CharShowSkills", {
 	end 
 })
 
-ix.command.Add("CharTestBackground", {
-    description = "Show skill values for given character.",
+ix.command.Add("CharSetSkill", {
+    description = "Set given skill for character.",
     privilege = "Manage Character Attributes",
     adminOnly = true,
     arguments = {
-        ix.type.character
+        ix.type.character,
+        ix.type.string,
+        ix.type.number
     },
 
-    OnRun = function(self, client, target)
-
-        client:Notify(target:GetRaceBonus("strength"))
-
-        
-
-        
-      
+    OnRun = function(self, client, target, skill, amount)
+        if not target:GetSkill(skill) then return "Invalid skill!" end
+        target:SetSkill(skill, amount)
+        return "Set " .. skill .. " skill of " .. target:GetName() .. " to " .. amount
     end 
 })
 

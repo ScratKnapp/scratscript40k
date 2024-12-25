@@ -1,0 +1,1 @@
+CHARCLASS.name = "Rogue Psyker"

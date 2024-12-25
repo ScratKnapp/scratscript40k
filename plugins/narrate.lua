@@ -81,3 +81,10 @@ ix.command.Add("metarget", {
   end
 })
 
+
+net.Receive("MetargetChatMessage", function()
+    local nick = net.ReadString()
+    local message = net.ReadString()
+    chat.AddText(Color(255, 165, 0), "** " .. nick .. " " .. message)
+end)
+

@@ -112,6 +112,31 @@ do
 			end 
 	
 		end
+
+		function charMeta:IsHuman()
+			local background = self:GetBackground()
+			if background == "Human" then return true
+			elseif background == "Amphii" then return true
+			elseif background == "Ratling" then return true
+			elseif background == "Adeptus Mechanicus" then return true
+			elseif background == "Squat" then return true 
+			elseif background == "Homo-Navigo" then return true
+			elseif background == "Felinid" then return true
+			elseif background == "Darksider" then return true
+			elseif background == "Ogryn" then return true 
+			elseif background == "Longshank" then return true 
+			else return false
+			end 
+		end
+
+		function charMeta:IsRace(race)
+			local background = self:GetBackground()
+			if background == race or background == "Amphii" then
+				return true
+			else
+				return false
+			end 
+		end
 		
 
 

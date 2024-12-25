@@ -17,6 +17,7 @@ function ix.skills.LoadFromDir(directory)
 
 			SKILL.name = SKILL.name or "Unknown"
 			SKILL.description = SKILL.description or "No description available."
+			SKILL.attribute = SKILL.attribute or "None"
 
 			ix.skills.list[niceName] = SKILL
 		SKILL = nil

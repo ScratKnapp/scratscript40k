@@ -12,6 +12,9 @@ ITEM.longdesc = "No longer description available."
 ITEM.category = "Armor"
 ITEM.skincustom = {}
 ITEM.outfitCategory = "model"
+ITEM.quality = "Normal"
+ITEM.type = "Medium"
+ITEM.AP = 0
 
 ITEM:Hook("drop", function(item)
 	if (item:GetData("equip")) then
@@ -160,8 +163,19 @@ function ITEM:RemoveAttachment(id, client)
 end
 
 function ITEM:OnInstanced()
-	self:SetData("SP", self.SP)
-	self:SetData("MaxSP", self:GetData("SP"))
+
+	if self.quality == "Good" then
+		self.AP = self.AP + 5
+	end 
+
+	if self.quality == "Best" then
+		self.AP = self.AP + 6
+	end 
+
+	self:SetData("AP", self.AP)
+	self:SetData("MaxAP", self:GetData("AP"))
+	self:SetData("Type", self.type)
+	self:SetData("Quality", self.quality)
 end
 
 
@@ -209,6 +223,18 @@ ITEM.functions.Equip = {
 		local client = item.player
 		local character = client:GetCharacter()
 		local items = character:GetInventory():GetItems()
+
+		if item.humanOnly and character:IsHuman() == false then
+			client:Notify("Only Humans and Abhumans can equip this armor.")
+			return false
+		end 
+
+		if item.race and item.race ~= character:GetBackground() then
+			client:Notify("This armor can only be equipped by a " .. item.race .. ".")
+			return false 
+		end 
+
+
 
 
 
@@ -293,11 +319,12 @@ function ITEM:OnRemoved()
 end
 
 function ITEM:OnEquipped()
-
+	self:ApplyWeightBuffs()
+	self:ApplySpecialQualityBuffs()
 end
 
 function ITEM:OnUnequipped()
-
+	self:ClearBuffs()
 end
 
 
@@ -315,9 +342,34 @@ function ITEM:GetDescription()
 		str = str.. "\n\n" ..customData.longdesc 
 	end
 
-	if self:GetData("SP") then 
-		str = str .. "\n\nSP: " .. self:GetData("SP") .. "/" .. self:GetData("MaxSP")
+	if self.humanOnly then 
+		str = str .. "\n\nOnly usable by Humans and Abhumans"
 	end 
+
+	if self.race then 
+		str = str .. "\nOnly usable by " .. self.race .. " Race"
+	end 
+
+	if self:GetData("AP") then 
+		str = str .. "\n\nArmor Points: " .. self:GetData("AP") .. "/" .. self:GetData("MaxAP")
+	end 
+
+	if self:GetData("Type") then
+		str = str .. "\nArmor Type: " .. self:GetData("Type")
+	end 
+
+	if self:GetData("Quality") then 
+		str = str .. "\n" .. self:GetData("Quality") .. " Craftmanship"
+	end 
+
+	if self.specialQualities then 
+		str = str .. "\nSpecial Qualities:"
+
+		for _, v in pairs(self.specialQualities) do
+			str = str .. "\n• " .. v
+		end 
+	end 
+
 	
 
 	if self.noUpgrade then 
@@ -395,3 +447,114 @@ ITEM.functions.Custom = {
 		return client:GetCharacter():HasFlags("N") and !IsValid(item.entity)
 	end
 }
+
+function ITEM:HasQuality(qualityname)
+	local hasQuality = false
+	local qualities = self.specialQualities
+	if qualities then
+		for k,v in pairs(qualities) do
+			if qualityname == v then
+				hasQuality = true
+				break
+			end 
+
+		end 
+	end
+    return hasQuality
+end
+
+function ITEM:ApplyWeightBuffs()
+	local client = self.player
+	local character = client:GetCharacter()
+	local weight = self:GetData("Type", "Medium")
+
+	if weight == "Light" then
+		character:AddBoost("Weight", "dexterity", 1)
+	elseif weight == "Heavy" then
+		character:AddBoost("Weight", "stamina", 1)
+	elseif weight == "Power" then
+		character:AddBoost("Weight", "strength", 3)
+	end 
+end 
+
+function ITEM:ApplySpecialQualityBuffs()
+	local client = self.player
+	local character = client:GetCharacter()
+	
+	if self:HasQuality("Fashionable") then
+		character:AddBoost("Fashionable", "appearance", 1)
+	end 
+
+	if self:HasQuality("Medicae") then
+		character:AddSkillBoost("Medicae", "medicine", 2)
+	end 
+
+	if self:HasQuality("Wraithbone") then
+		character:AddBoost("Wraithbone", "dexterity", 1)
+	end 
+
+	if self:HasQuality("Asuryani-Runes") then
+		character:AddSkillBoost("Asuryani-Runes", "warpattunement", 2)
+	end 
+
+	if self:HasQuality("Intimidating") then
+		character:AddSkillBoost("Intimidating", "intimidation", 2)
+	end 
+	
+	if self:HasQuality("Disgusting") then
+		character:AddBoost("Disgusting", "appearance", -1)
+	end 
+	
+	if self:HasQuality("Deus Mechanicus") then
+		character:AddBoost("Deus Mechanicus", "intelligence", 1)
+		character:AddSkillBoost("Deus Mechanicus", "tech", 1)
+	end 
+
+	if self:HasQuality("Psi-Enhancing") then
+		character:AddSkillBoost("Psi-Enhancing", "warpattunement", 1)
+	end 
+
+	if self:HasQuality("Navis-Nobilite") then
+		character:AddBoost("Navis-Nobilite", "charisma", 1)
+		character:AddSkillBoost("Navis-Nobilite", "navigation", 1)
+	end 
+
+	if self:HasQuality("Astartes") then
+		character:AddBoost("Astartes", "stamina", 2)
+		character:AddBoost("Astartes", "strength", 1)
+	end 
+
+	
+	if self:HasQuality("Minor-Runes") then
+		character:AddSkillBoost("Minor-Runes", "warpattunement", 1)
+	end 
+
+
+	
+
+
+end 
+
+
+function ITEM:ClearBuffs()
+	local client = self.player
+	local character = client:GetCharacter()
+	
+	local boosts = character:GetBoosts()
+	for attribID, v in pairs(boosts) do
+		for boostID, _ in pairs(v) do
+			character:RemoveBoost(boostID, attribID)
+		end
+	end
+
+	local skillboosts = character:GetSkillBoosts()
+	for attribID, v in pairs(skillboosts) do
+		for boostID, _ in pairs(v) do
+			character:RemoveSkillBoost(boostID, attribID)
+		end
+	end
+
+
+
+	
+end 
