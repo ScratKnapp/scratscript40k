@@ -1,0 +1,9 @@
+ITEM.name = "Astartes Powersword"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 2d10+5 E | Penetration: 5 | Capacity: - | Reload: - | Special: Balanced/Defensive/Powerfield | Availability: Near Unique"
+ITEM.longdesc = "The noble Powersword, but built with the Astartes size and strength in mind. The powerfield generating off this blade seems more than capable of smiting whatever threat lies in front."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "power_sword"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

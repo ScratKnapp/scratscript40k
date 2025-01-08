@@ -1,0 +1,9 @@
+ITEM.name = "Power Sword Mars"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 2d10+5 E | Penetration: 4 | Capacity: - | Reload: - | Special: Powerfield/Unbalanced | Availability: Very Rare"
+ITEM.longdesc = "A large, powerful power sword dedicated entirely to hitting something hard. Not for the dualist, but for the zealot."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "melee_primaris-indomitus_sword"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

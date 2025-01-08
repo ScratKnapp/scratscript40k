@@ -1,0 +1,9 @@
+ITEM.name = "Shotgun"
+ITEM.description = "Class: Basic | Range: 30m | Rate of Fire: S/-/- | Damage: 1d10+4 I | Penetration: 0 | Capacity: 2 | Reload: 2 Full | Special: Scatter | Availability: Common"
+ITEM.longdesc = "Now this, is my boom-- oh."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_bo3_olympia"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

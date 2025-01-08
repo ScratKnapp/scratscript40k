@@ -1,0 +1,13 @@
+ITEM.name = "Pelager's Suit"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Aquatic suit for Pelagers."
+ITEM.longdesc = "A specialized light suit featuring aquatic adaptations and a built-in respirator."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 20
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Aquatic", "Respirator" }

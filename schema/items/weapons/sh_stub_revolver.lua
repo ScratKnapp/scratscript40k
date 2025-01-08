@@ -1,0 +1,9 @@
+ITEM.name = "Stub Revolver"
+ITEM.description = "Class: Pistol | Range: 30m | Rate of Fire: S/-/- | Damage: 1d10+3 I | Penetration: 0 | Capacity: 6 | Reload: 2 Full | Special: Reliable | Availability: Plentiful"
+ITEM.longdesc = "Now this, is a wheel gun."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "wk_tfa_shultz_revolver"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

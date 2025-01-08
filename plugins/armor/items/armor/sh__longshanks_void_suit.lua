@@ -1,0 +1,13 @@
+ITEM.name = "Longshanks Void-Suit"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Void-suit for Longshanks."
+ITEM.longdesc = "A light void-suit equipped with a photo-visor for operations in hazardous environments."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 18
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Void-Suit", "Photo-Visor" }

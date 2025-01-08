@@ -1,0 +1,10 @@
+ITEM.name = "Autogun"
+ITEM.description = "Class: Basic | Range: 90m | Rate of Fire: S/3/10 | Damage: 1d10+3 I | Penetration: 0 | Capacity: 30 | Reload: 2 Full | Special: - | Availability: Average"
+ITEM.longdesc = "The reliable classic. Well, taking second place to the Lasgun."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_vossautogun"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 3
+ITEM.auto = 10

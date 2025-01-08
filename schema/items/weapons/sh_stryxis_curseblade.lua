@@ -1,0 +1,9 @@
+ITEM.name = "Stryxis Curseblade"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d15 R | Penetration: 2 | Capacity: - | Reload: - | Special: Balanced | Availability: Extremely Rare"
+ITEM.longdesc = "A large dagger that is made of a dark blue-grey material. It hums with an odd tone. Rumors say that it not only cuts the flesh, but the soul underneath. It will strike fiercely... if you can get your grip on the weapon as it seems to writhe in your own hand."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_bo3_dagger"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

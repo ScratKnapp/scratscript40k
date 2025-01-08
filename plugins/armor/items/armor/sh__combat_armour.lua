@@ -1,0 +1,14 @@
+ITEM.name = "Combat Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Standard combat armor for the T'au military."
+ITEM.longdesc = "Medium armor equipped with a void-suit and photo-visor for effective battlefield engagement in harsh conditions."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.race = "Tau"
+ITEM.AP = 20
+ITEM.type = "Medium"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Void-Suit", "Photo-Visor" }

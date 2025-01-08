@@ -1,0 +1,14 @@
+ITEM.name = "Kommando Paint"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Camouflage paint for Kommandos."
+ITEM.longdesc = "This paint, applied by Ork Kommandos, enhances stealth by blending into surroundings."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.race = "Ork"
+ITEM.AP = 18
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Stealth", "Skrapz" }

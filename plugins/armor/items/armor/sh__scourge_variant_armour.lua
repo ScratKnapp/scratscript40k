@@ -1,0 +1,13 @@
+ITEM.name = "Scourge-Variant Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Heavy respirator-equipped armor."
+ITEM.longdesc = "Heavy armor designed for the battlefield, featuring advanced respiratory systems and enhanced optics."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 15
+ITEM.type = "Heavy"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Respirator", "Photo-Visor" }

@@ -1,0 +1,13 @@
+ITEM.name = "Xeno-Mesh"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Alien medium mesh armor."
+ITEM.longdesc = "A medium armor designed by alien craftsmanship, offering strong blast resistance with lightweight mobility."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.AP = 14
+ITEM.type = "Medium"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Blast-Resistant" }

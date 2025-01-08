@@ -1,0 +1,14 @@
+ITEM.name = "Xenohide Cloak"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "A cloak of xenohide material."
+ITEM.longdesc = "This lightweight cloak offers blast resistance and an intimidating silhouette, perfect for blending in hostile environments."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.race = "Various Xenos"
+ITEM.AP = 15
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Intimidating", "Blast-Resistant" }

@@ -1,0 +1,9 @@
+ITEM.name = "Sonic Rifle"
+ITEM.description = "Class: Basic | Range: 30m | Rate of Fire: S/2/- | Damage: 1d10+4 X | Penetration: 2 | Capacity: 8 | Reload: Full | Special: Tearing/Shocking | Availability: Rare"
+ITEM.longdesc = "A rifle that's filled with components that sends an earpiercing sonic boom down range and overload a target's senses. What an excessive weapon."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_alchemy"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 2

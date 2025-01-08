@@ -1,0 +1,9 @@
+ITEM.name = "Blind"
+ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: S/-/- | Damage: - | Penetration: - | Capacity: - | Reload: - | Special: Smoke | Availability: Rare"
+ITEM.longdesc = "Is someone a little, too accurate? Fix it, with this."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "wk_grenade_flash"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

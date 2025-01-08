@@ -1,0 +1,10 @@
+ITEM.name = "Heavy Burst Cannon"
+ITEM.description = "Class: Heavy | Range: 80m | Rate of Fire: -/6/12 | Damage: 2d10+7 E | Penetration: 6 | Capacity: 120 | Reload: 4 Full | Special: Tearing | Availability: Very Rare"
+ITEM.longdesc = "A even larger plasma weapon, that will absolutely turn someone to blue ash before they're even ripped to shreds."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_vapor"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 6
+ITEM.auto = 12

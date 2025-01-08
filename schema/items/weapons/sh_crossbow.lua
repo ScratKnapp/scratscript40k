@@ -1,0 +1,9 @@
+ITEM.name = "Crossbow"
+ITEM.description = "Class: Basic | Range: 30m | Rate of Fire: S/-/- | Damage: 1d10 R| Penetration: 2 | Capacity: 1 | Reload: 2 Full | Special: Primitive | Availability: Common"
+ITEM.longdesc = "A proper weapon, for people who think they're above being a peasant."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arc9_wk_felinid_crossbow"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

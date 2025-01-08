@@ -1,0 +1,14 @@
+ITEM.name = "Earth-Caste Suit"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "A utilitarian suit worn by the Earth-Caste."
+ITEM.longdesc = "Equipped with a photo-visor and respirator, this light suit is practical for engineering and hazardous environments."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.race = "Tau"
+ITEM.AP = 8
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Photo-Visor", "Respirator" }

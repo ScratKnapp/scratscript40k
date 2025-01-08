@@ -1,0 +1,9 @@
+ITEM.name = "Filament"
+ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: S/-/- | Damage: 4d10+4 R | Penetration: 6 | Capacity: - | Reload: - | Special: Blast 1/Tearing | Availability: Extremely Rare"
+ITEM.longdesc = "The dangers of the Eldar monomolecular technology, spooled in a wire inside of a grenade. Everything, will be cut to pieces."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_fathom"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

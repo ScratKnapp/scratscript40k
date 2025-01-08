@@ -1,0 +1,9 @@
+ITEM.name = "Shock Stars"
+ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: - | Damage: 1d10 I | Penetration: 0 | Capacity: - | Reload: - | Special: Shocking | Availability: Rare"
+ITEM.longdesc = "Throwing stars meant to dig into an opponent and stun them. Perfect for when someone you need taking alive."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arccw_apex_nade_arcstar"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

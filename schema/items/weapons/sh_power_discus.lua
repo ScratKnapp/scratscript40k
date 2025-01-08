@@ -1,0 +1,9 @@
+ITEM.name = "Power Discus"
+ITEM.description = "Class: Thrown | Range: SBx4 | Rate of Fire: - | Damage: 1d10+4 E | Penetration: 5 | Capacity: - | Reload: - | Special: Powerfield | Availability: Extremely Rare"
+ITEM.longdesc = "A light discus with the edge shaped into a sharp blade. Despite being so light, the powerfield gives it enough strength to cut through whoever it's thrown to. Definitely don't cut yourself with this."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arccw_apex_nade_arcstar"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

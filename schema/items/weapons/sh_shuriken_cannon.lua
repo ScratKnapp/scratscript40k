@@ -1,0 +1,10 @@
+ITEM.name = "Shuriken Cannon"
+ITEM.description = "Class: Heavy | Range: 110m | Rate of Fire: -/-/6 | Damage: 2d10+6 R | Penetration: 3 | Capacity: 200 | Reload: 3 Full | Special: Reliable | Availability: Extremely Rare"
+ITEM.longdesc = "The Shuriken Cannon is a powerful heavy weapon capable of dealing substantial damage over long distances."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "zad_eldar_shuriken_cannon"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1
+ITEM.auto = 6

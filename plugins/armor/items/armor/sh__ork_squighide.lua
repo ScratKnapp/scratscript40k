@@ -1,0 +1,14 @@
+ITEM.name = "Ork Squighide"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Armor of Squighide."
+ITEM.longdesc = "Crafted from durable Squighide, this armor offers surprising resilience for its weight."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.race = "Ork"
+ITEM.AP = 15
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Skrapz" }

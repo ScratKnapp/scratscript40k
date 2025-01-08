@@ -1,0 +1,13 @@
+ITEM.name = "Rugged Robes"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Rough and durable robes."
+ITEM.longdesc = "Simple robes designed for basic wear, often soiled and unpleasant to the touch."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 3
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Disgusting" }

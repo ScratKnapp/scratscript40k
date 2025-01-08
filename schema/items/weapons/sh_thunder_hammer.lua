@@ -1,0 +1,9 @@
+ITEM.name = "Thunder Hammer"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 2d10+4 E | Penetration: 10 | Capacity: - | Reload: - | Special: Powerfield/Unwieldy | Availability: Very Rare"
+ITEM.longdesc = "The infamous thunder hammer. There is no introduction for this. Strike true."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_zad_thunderhammer"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

@@ -1,0 +1,13 @@
+ITEM.name = "Dragon-Scale"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Powerful scale armor."
+ITEM.longdesc = "A power armor that offers void-suit capabilities, blast resistance, and an intimidating appearance."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 35
+ITEM.type = "Power"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Void-Suit", "Blast-Resistant", "Intimidating" }

@@ -1,0 +1,9 @@
+ITEM.name = "Shock Knuckles"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10 I | Penetration: 0 | Capacity: - | Reload: - | Special: Shocking | Availability: Scarce"
+ITEM.longdesc = "A pair of metal knuckle dusters that are electrified. Probably meant for torture and intimidation by gangers."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_bo3_knuckles"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

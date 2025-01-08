@@ -1,0 +1,9 @@
+ITEM.name = "Chainsword Hecate"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+2 R | Penetration: 2 | Capacity: - | Reload: - | Special: Tearing/Balanced | Availability: Average"
+ITEM.longdesc = "A steady chainsword that has a smaller blade and engine, but still quite capable of tearing through with some elegence."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_hwh40k_chain_sword"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

@@ -1,0 +1,9 @@
+ITEM.name = "Light Boltpistol"
+ITEM.description = "Class: Pistol | Range: 35m | Rate of Fire: S/-/- | Damage: 1d10+5 X | Penetration: 3 | Capacity: 10 | Reload: Half | Special: Accurate/Tearing/Reliable | Availability: Very Rare"
+ITEM.longdesc = "An even lighter boltpistol that was modified to make sure that it can be carried around whatever rough enviroment. Still not light enough for any Human."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_boltpistol_light"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

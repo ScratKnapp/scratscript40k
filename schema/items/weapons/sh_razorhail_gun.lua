@@ -1,0 +1,9 @@
+ITEM.name = "Razorhail Gun"
+ITEM.description = "Class: Basic | Range: 35m | Rate of Fire: S/-/- | Damage: 1d10+2 R | Penetration: 1 | Capacity: 1 | Reload: Full | Special: Scatter/Tearing | Availability: Average"
+ITEM.longdesc = "Flechette, but specifically tailored to rip and tear in a way, that the guy next to the person will be horrified for decades."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "weapon_personal_signin-shotgun"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

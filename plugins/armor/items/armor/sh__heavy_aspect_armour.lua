@@ -1,0 +1,14 @@
+ITEM.name = "Heavy Aspect Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Heavy Eldar armor."
+ITEM.longdesc = "Heavy Wraithbone armor for Aspect Warriors, combining rune protection, void-suit capabilities, and advanced optics."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.race = "Eldar"
+ITEM.AP = 26
+ITEM.type = "Heavy"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Wraithbone", "Minor-Runes", "Void-Suit", "Photo-Visor" }

@@ -1,0 +1,9 @@
+ITEM.name = "Airburst Fragmentation"
+ITEM.description = "Class: Heavy | Range: 60m | Rate of Fire: S/-/- | Damage: 2d10 X | Penetration: 3 | Capacity: 12 | Reload: 2 Full | Special: Blast (4) | Availability: Near Unique"
+ITEM.longdesc = "A missile pod that is longer than wider, sending out rockets that burst into deadly shrapnel when it reaches the designated range. Perfect for air targets."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_pyre"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

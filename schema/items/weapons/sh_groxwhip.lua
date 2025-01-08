@@ -1,0 +1,9 @@
+ITEM.name = "Groxwhip"
+ITEM.description = "Class: Melee | Range: 3m | Rate of Fire: - | Damage: 1d10+3 R | Penetration: 0 | Capacity: - | Reload: - | Special: Primitive/Tearing/Flexible | Availability: Scarce"
+ITEM.longdesc = "A whip with the lash being made of barbed steel with serrated edges. The perfect tool to torture someone, while fighting."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "realistic_hook"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

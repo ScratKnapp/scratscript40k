@@ -1,0 +1,9 @@
+ITEM.name = "Vespid Neutron Revolver"
+ITEM.description = "Class: Pistol | Range: 30m | Rate of Fire: S/-/- | Damage: 2d10+5 I | Penetration: -4 | Capacity: 6 | Reload: 2 Full | Special: Tearing/Scatter | Availability: Extremely Rare"
+ITEM.longdesc = "A T'au manufactured weapon gifted to the Vespids to keep up with the technology on a galactic scale. This 'revolver' fires out crystaline bolts towards the target, radiating off neutron radiation that will slowly kill other species."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_trace"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

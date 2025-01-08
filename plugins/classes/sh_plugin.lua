@@ -154,3 +154,31 @@ ix.command.Add("CharGetClasses", {
 		client:Notify("Tertiary: " .. tertiary.name  .. ": " .. tertiary.level or 0)
 	end
 })
+
+
+charMeta = ix.meta.character
+
+function charMeta:HasClass(classname)
+
+	local primary = self:GetData("PrimaryClass")
+	local secondary = self:GetData("SecondaryClass")
+	local tertiary = self:GetData("TertiaryClass")
+
+
+	local hasClass = false
+
+	if primary then
+		if primary.name == classname then hasClass = primary.level end 
+	end
+
+	if secondary then
+		if secondary.name == classname then hasClass = secondary.level end 
+	end
+
+	if tertiary then
+		if tertiary.name == classname then hasClass = tertiary.level end 
+	end
+
+	return hasClass
+
+end 

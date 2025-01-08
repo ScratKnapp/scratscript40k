@@ -1,0 +1,10 @@
+ITEM.name = "Shardcarbine"
+ITEM.description = "Class: Basic | Range: 60m | Rate of Fire: S/3/5 | Damage: 1d10+2 R | Penetration: 3 | Capacity: 200 | Reload: 2 Full | Special: Storm, Toxic | Availability: Scarce"
+ITEM.longdesc = "The Shardcarbine is a basic ranged weapon, favored for its high rate of fire and toxic payload."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_thunderbolt"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 3
+ITEM.auto = 5

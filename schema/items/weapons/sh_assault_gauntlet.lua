@@ -1,0 +1,10 @@
+ITEM.name = "Assault Gauntlet"
+ITEM.description = "Class: Pistol | Range: 20m | Rate of Fire: S/-/8 | Damage: 1d10+4 I | Penetration: 2 | Capacity: 24 | Reload: 4 Full | Special: Defensive | Availability: Very Rare"
+ITEM.longdesc = "A large gauntlet that can help block fire and return it as well. If only it was more easier to reload..."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_zad_boltergauntlets"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1
+ITEM.auto = 8

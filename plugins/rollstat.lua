@@ -9,13 +9,13 @@ PLUGIN.description = "cheese.wav"
 
 -- Chat type for rolls
 ix.chat.Register("rollstat", {
-    format = "** %s rolled for %s Difficulty %s with %sd10 %s: %s \nSuccess: %s\nFail: %s",
+    format = "** %s rolled for %s Difficulty %s with %sd10 %s: %s \nAmmo Used: %s \nSuccess: %s\nFail: %s",
     color = Color(155, 111, 176),
     CanHear = ix.config.Get("chatRange", 280),
     deadCanChat = true,
     OnChatAdd = function(self, speaker, text, bAnonymous, data)
         local translated = L2(self.uniqueID.."Format", speaker:Name(), text)
-        chat.AddText(self.color, translated and "** "..translated or string.format(self.format, speaker:Name(), data.attname, data.difficulty, data.dicepool, data.modifierstring, data.rollstring, data.pass, data.fail))
+        chat.AddText(self.color, translated and "** "..translated or string.format(self.format, speaker:Name(), data.attname, data.difficulty, data.dicepool, data.modifierstring, data.rollstring, data.ammotype, data.pass, data.fail))
     end
 })
 
@@ -185,6 +185,14 @@ ix.command.Add("fire", {
 
         if shots > dicepool then return "Don't have enough die to roll " .. shots .. " shots." end 
 
+        local weapon = client:GetActiveWeaponItem()
+
+        if not weapon then return "You need to equip a ranged weapon." end 
+
+        local ammotype = char:DeductAmmo(weapon:GetData("AmmoType", "normal"), shots)
+
+        if not ammotype then return "Not enough ammo to fire this amount of shots!" end 
+
         local rollsplit = {}
 
         -- Only split dice pool if we're actually splitting it to begin with, else allocate entire pool to one roll
@@ -231,7 +239,8 @@ ix.command.Add("fire", {
                rollstring = rollstring,
                difficulty = difficulty,
                modifier = modifier,
-               modifierstring = modifierstring
+               modifierstring = modifierstring,
+               ammotype = ammotype 
             })
     
            ix.log.Add(client, "rollStat", attname, group, pass, fail, rollstring, difficulty)
@@ -245,11 +254,12 @@ ix.command.Add("fire", {
 
 ix.command.Add("autofire", {
     description = "Dump all your dice plus your weapon's autofire rating into one burst. Optional modifier.",
-    arguments = {ix.type.number, ix.type.number, bit.bor(ix.type.number, ix.type.optional)},
-    OnRun = function(self, client, rof, difficulty, modifier)
+    arguments = {ix.type.number, bit.bor(ix.type.number, ix.type.optional), bit.bor(ix.type.number, ix.type.optional)},
+    OnRun = function(self, client, difficulty, rofmodifier, modifier)
+
+        if not rofmodifier then rofmodifier = 0 end 
 
         if difficulty < 0 then return "Difficulty cannot be negative." end  
-        if rof <= 0 then return "Cannot have 0 or less shots." end 
 
         local char = client:GetCharacter()
         local attname = "Automatic Fire"
@@ -265,11 +275,24 @@ ix.command.Add("autofire", {
             professionboost = 1
         end 
 
-        dicepool = dicepool + skillboost + attboost + raceboost + injurydebuff + rof
+        local weapon = client:GetActiveWeaponItem()
+
+        if not weapon then return "You need to equip a ranged weapon." end 
+        if not weapon.auto then return "Your current weapon is not capable of automatic fire." end
+
+        local shots = weapon.auto + rofmodifier
+
+        if shots <= 0 then return "Cannot fire 0 or less shots." end 
+
+        dicepool = dicepool + skillboost + attboost + raceboost + injurydebuff + shots
         if modifier then dicepool = dicepool + modifier end
 
-       
+    
+    
 
+        local ammotype = char:DeductAmmo(weapon:GetData("AmmoType", "normal"), shots)
+
+        if not ammotype then return "Not enough ammo to fire this amount of shots!" end 
   
 
         local rollsplit = {dicepool}
@@ -311,7 +334,8 @@ ix.command.Add("autofire", {
                rollstring = rollstring,
                difficulty = difficulty,
                modifier = modifier,
-               modifierstring = modifierstring
+               modifierstring = modifierstring,
+               ammotype = ammotype
             })
     
            ix.log.Add(client, "rollStat", attname, group, pass, fail, rollstring, difficulty)
@@ -380,3 +404,54 @@ function splitdice(total, group_size)
 
     return groups
 end
+
+
+local charMeta = ix.meta.character
+
+function charMeta:DeductAmmo(type, amt)
+
+
+    local client = self:GetPlayer()
+    local ammotype = "ammo_" .. type
+    local founditem = false 
+
+
+
+    for k,v in pairs(self:GetInv():GetItemsByUniqueID(ammotype)) do
+
+        local ammoItem = v
+        if ammoItem:GetData("stacks", 0) < amt then continue end
+
+        ammoItem:SetData("stacks", ammoItem:GetData("stacks") - amt)
+        if ammoItem:GetData("stacks", 0) <= 0 then ammoItem:Remove() end
+        founditem = v.name 
+        break 
+
+
+			
+	end
+
+    return founditem 
+end 
+
+
+
+local playerMeta = FindMetaTable("Player")
+
+function playerMeta:GetActiveWeaponItem()
+
+	local swep = self:GetActiveWeapon()
+	if not swep then return false end 
+	local weaponItem
+	local wepclass = swep:GetClass()
+
+	for k,v in pairs(self:GetChar():GetInv():GetItems()) do
+        if v:GetData("equip",false) == true then
+            if wepclass == v.class then
+                weaponItem = v
+            end
+        end
+	end
+
+	return weaponItem
+end 

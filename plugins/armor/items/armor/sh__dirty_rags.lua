@@ -1,0 +1,13 @@
+ITEM.name = "Dirty Rags"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Tattered and filthy clothing."
+ITEM.longdesc = "Worn by the destitute, these rags offer no protection and are highly unsanitary."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 1
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Disgusting" }

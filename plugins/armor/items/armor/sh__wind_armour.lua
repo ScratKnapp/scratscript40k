@@ -1,0 +1,13 @@
+ITEM.name = "Wind Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Armor designed for harsh weather."
+ITEM.longdesc = "A medium armor that resists extreme weather, equipped with a respirator and advanced optics."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 25
+ITEM.type = "Medium"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Weather-Resistant", "Respirator", "Photo-Visor" }

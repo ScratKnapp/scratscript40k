@@ -1,0 +1,9 @@
+ITEM.name = "Hand Cannon"
+ITEM.description = "Class: Pistol | Range: 35m | Rate of Fire: S/-/- | Damage: 1d10+4 I | Penetration: 2 | Capacity: 5 | Reload: 2 Full | Special: - | Availability: Average"
+ITEM.longdesc = "The big and bad gun. Swing it around, wave it. Ocassionally put a fist size hole in someone."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfeye_444"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

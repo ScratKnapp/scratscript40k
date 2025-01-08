@@ -1,0 +1,9 @@
+ITEM.name = "Astartes Flamer"
+ITEM.description = "Class: Heavy | Range: 50m | Rate of Fire: - | Damage: 2d10+5 E | Penetration: - | Capacity: 5 | Reload: 3 Full | Special: Burn/Balanced/Reliable | Availability: Extremely Rare"
+ITEM.longdesc = "A large flamer built for an Astartes in mind. Despite it being massive, it's more than ease to manage in your own, augmented, hands."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "zad_eldar_flamer"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

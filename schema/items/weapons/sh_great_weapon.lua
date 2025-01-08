@@ -1,0 +1,9 @@
+ITEM.name = "Great Weapon"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 2d10 R | Penetration: 0 | Capacity: - | Reload: - | Special: Primitive/Unbalanced | Availability: Scarce"
+ITEM.longdesc = "A large blade almost about as big as you are. Best hope you can wield it."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "black_sword"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

@@ -1,0 +1,13 @@
+ITEM.name = "Aurian Scale Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Fashionable scale armor."
+ITEM.longdesc = "A lightweight yet protective armor, crafted with aesthetic appeal for social and functional purposes."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 13
+ITEM.type = "Heavy"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Fashionable" }

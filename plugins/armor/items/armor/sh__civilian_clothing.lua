@@ -1,0 +1,13 @@
+ITEM.name = "Civilian Clothing"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Standard civilian attire."
+ITEM.longdesc = "Basic clothing for everyday use, offering no protection but adequate for casual wear."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 4
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = {}

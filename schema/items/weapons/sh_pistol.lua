@@ -1,0 +1,10 @@
+ITEM.name = "9MM Pistol" 
+ITEM.description = "A sidearm utilising 9mm Ammunition." -- Shows up on ground
+ITEM.longdesc = "Pew pew" -- Shows up on ground and in inventory
+ITEM.model = "models/weapons/w_pistol.mdl" 
+ITEM.class = "weapon_pistol"
+ITEM.weaponCategory = "sidearm" -- primary, sidearm, or melee
+ITEM.width = 2
+ITEM.height = 1
+ITEM.ROF = 1 -- Rate of Fire when firing in semi auto
+ITEM.auto = 5 -- Rate Of Fire when firing in full auto, do not include if its semi only

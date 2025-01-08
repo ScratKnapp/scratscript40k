@@ -1,0 +1,9 @@
+ITEM.name = "Dartcaster"
+ITEM.description = "Class: Pistol | Range: 30m | Rate of Fire: S/-/- | Damage: 1d10+1 R | Penetration: 0 | Capacity: 1 | Reload: Full | Special: Toxic | Availability: Rare"
+ITEM.longdesc = "A basic classification of a weapon that fires a metal dart at a target with the intent of dumping a payload of venom. This one in particular is a airgun that fires a flechette."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_dartgun"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

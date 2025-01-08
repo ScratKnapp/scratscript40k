@@ -1,1 +1,0 @@
-CHARCLASS.name = "Sanctioned Psyker"

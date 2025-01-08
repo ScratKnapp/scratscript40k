@@ -1,0 +1,10 @@
+ITEM.name = "Phased Ion Gun"
+ITEM.description = "Class: Heavy | Range: 40m | Rate of Fire: S/4/8 | Damage: 1d10+9 E | Penetration: 4 | Capacity: 150 | Reload: 2 Full | Special: Overcharge (6) | Availability: Near Unique"
+ITEM.longdesc = "An experimental weapon that was built for close range threats, rending them with multiple ion beams. Look at that lightshow!"
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arc9_wk_pers_henai_lasminigun"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 4
+ITEM.auto = 8

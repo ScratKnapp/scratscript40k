@@ -1,0 +1,14 @@
+ITEM.name = "Veteran Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Power armor for Astartes veterans."
+ITEM.longdesc = "Heavy power armor designed for veteran Space Marines, featuring void-suit integration, Astartes enhancements, and blast resistance."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.race = "Astartes"
+ITEM.AP = 32
+ITEM.type = "Power"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Void-Suit", "Astartes", "Photo-Visor", "Blast-Resistant" }

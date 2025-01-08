@@ -1,0 +1,9 @@
+ITEM.name = "Smoke"
+ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: S/-/- | Damage: - | Penetration: 0 | Capacity: - | Reload: - | Special: Smoke (Visual) | Availability: Common"
+ITEM.longdesc = "A smoke grenade! So useful, but so underused."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "wk_grenade_smoke"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 0

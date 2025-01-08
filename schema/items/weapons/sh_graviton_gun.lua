@@ -1,0 +1,9 @@
+ITEM.name = "Graviton Gun"
+ITEM.description = "Class: Basic | Range: 40m | Rate of Fire: S/-/- | Damage: Gravity | Penetration: - | Capacity: 3 | Reload: 2 Full | Special: Gravity/Mechanicus/Blast 5 | Availability: Near Unique"
+ITEM.longdesc = "A piece of technology from the Dark Age of Technology, reutilizing the hovering technology in a direct way. Where this area strikes, gravity will either be crushing or light enough to lift someone."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "weapon_spec-wp_grav-gun"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

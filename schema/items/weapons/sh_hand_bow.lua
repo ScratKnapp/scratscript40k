@@ -1,0 +1,9 @@
+ITEM.name = "Hand Bow"
+ITEM.description = "Class: Pistol | Range: 20m | Rate of Fire: S/-/- | Damage: 1d10+1 R| Penetration: 0 | Capacity: 1 | Reload: Full | Special: Primitive | Availability: Rare"
+ITEM.longdesc = "A small crossbow, finely made to make all the small parts work. And now you're gonna bring this piece of art into battle."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arc9_wk_felinid_crossbow"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

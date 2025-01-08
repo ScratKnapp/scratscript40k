@@ -1,0 +1,13 @@
+ITEM.name = "Dominus Warplate"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Battleplate of the Dominus."
+ITEM.longdesc = "Heavy armor with void-suit capabilities, enhanced optics, and the blessing of the Deus Mechanicus."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 25
+ITEM.type = "Heavy"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Void-Suit", "Photo-Visor", "Deus Mechanicus" }

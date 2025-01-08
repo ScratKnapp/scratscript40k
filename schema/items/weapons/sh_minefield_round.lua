@@ -1,0 +1,9 @@
+ITEM.name = "Minefield Round"
+ITEM.description = "Class: Can only be shot with a launcher | Range: - | Rate of Fire: - | Damage: 2d10 X (Three mines in a 5x10m Range) | Penetration: 1 | Capacity: - | Reload: - | Special: Blast 1 | Availability: Rare"
+ITEM.longdesc = "Liter the field with mines, they'll all be used, eventually.."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arc9_wk_ork_mine"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

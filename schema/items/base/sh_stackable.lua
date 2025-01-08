@@ -2,6 +2,7 @@ ITEM.name = 'Stackable Items Base'
 ITEM.description = 'Stackable Item'
 ITEM.category = 'Stackable'
 ITEM.model = 'models/props_c17/TrapPropeller_Lever.mdl'
+ITEM.stacks = 1 
 ITEM.maxStacks = 16
 ITEM.noBusiness = true
 
@@ -60,3 +61,7 @@ ITEM.functions.split = {
 		return (item:GetData('stacks', 1) ~= 1)
 	end
 }
+
+function ITEM:OnInstanced(invID, x, y)
+	self:SetData("stacks", self.stacks)
+end

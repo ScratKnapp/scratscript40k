@@ -1,0 +1,13 @@
+ITEM.name = "Skitarii Warplate"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Battle armor of the Skitarii."
+ITEM.longdesc = "Advanced medium armor equipped with a void-suit, blast resistance, and enhanced optics for battlefield operations."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 24
+ITEM.type = "Medium"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Void-Suit", "Blast-Resistant", "Photo-Visor" }

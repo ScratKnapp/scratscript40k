@@ -1,0 +1,9 @@
+ITEM.name = "Gamma Pistol"
+ITEM.description = "Class: Pistol | Range: 35m | Rate of Fire: S/-/- | Damage: 2d10+5 E | Penetration: 3 | Capacity: 6 | Reload: 2 Full | Special: Mechanicus | Availability: Near Unique"
+ITEM.longdesc = "A pistol of the Mechanicus that is not bestowed so lightly. This can throw ionizing radiation towards the target, but this pistol has a culture of skill built around it."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "weapon_mech_gamma-pisol"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

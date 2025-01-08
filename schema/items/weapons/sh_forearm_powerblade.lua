@@ -1,0 +1,9 @@
+ITEM.name = "Forearm Powerblade"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+1 E | Penetration: 4 | Capacity: - | Reload: - | Special: Powerfield/Balanced/Defensive | Availability: Very Rare"
+ITEM.longdesc = "A blade gauntlet rigged with a power field generator. Quite handy in all the ways it can be utilized. Whether blocking incoming strikes, or returning a counterattack of your own."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "melee_off-ass_double-swords"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

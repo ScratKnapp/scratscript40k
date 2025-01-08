@@ -1,0 +1,10 @@
+ITEM.name = "Quill Blaster"
+ITEM.description = "Class: Basic | Range: 50m | Rate of Fire: S/-/6 | Damage: 1d10 R | Penetration: 2 | Capacity: 50 | Reload: 2 Full | Special: Tearing/Overheat/Razorsharp | Availability: Near Unique"
+ITEM.longdesc = "A piece of Archaeotech weapon, firing out thin and liquefied metal towards the target. It works off any metal, and searings into the target with 'spines'."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_draco"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1
+ITEM.auto = 6

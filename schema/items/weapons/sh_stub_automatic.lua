@@ -1,0 +1,9 @@
+ITEM.name = "Stub Automatic"
+ITEM.description = "Class: Pistol | Range: 30m | Rate of Fire: S/3/- | Damage: 1d10+3 I | Penetration: 0 | Capacity: 9 | Reload: Full | Special: - | Availability: Plentiful"
+ITEM.longdesc = "An automatic pistol. Surely you'll hit something with this many rounds."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_bo3_rk5"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 3

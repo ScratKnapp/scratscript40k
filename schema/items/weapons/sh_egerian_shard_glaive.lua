@@ -1,0 +1,9 @@
+ITEM.name = "Egerian Shard Glaive"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+4 R | Penetration: 2 | Capacity: - | Reload: - | Special: Tearing/Toxic | Availability: Extremely Rare"
+ITEM.longdesc = "A massive pole with an obsidian like, jagged blade. Rumors say these rare weapons litter the civilization of a long forgotten xeno race."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "melee_eldars_incub-power-sword"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

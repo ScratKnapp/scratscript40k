@@ -1,0 +1,10 @@
+ITEM.name = "Eldar Sunrifle"
+ITEM.description = "Class: Basic | Range: 90m | Rate of Fire: S/4/8 | Damage: 1d10+6 E | Penetration: 4 | Capacity: 60 | Reload: Full | Special: Reliable, Storm | Availability: Unique"
+ITEM.longdesc = "The Eldar Sunrifle is a rapid-firing energy weapon that excels in medium-range combat, delivering high damage and reliability."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "zad_eldar_sunrifle"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 4
+ITEM.auto = 8

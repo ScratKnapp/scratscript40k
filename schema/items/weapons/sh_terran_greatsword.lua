@@ -1,0 +1,9 @@
+ITEM.name = "Terran Greatsword"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 2d10+4 R | Penetration: 5 | Capacity: - | Reload: - | Special: Razorsharp/Balanced | Availability: Near Unique"
+ITEM.longdesc = "One of the many great works from Terra. The blade, large but still somehow balanced to be used with skill. The edge cuts through hundreds and still keen. This would be a piece of art mounted on a wall... but in this age, it's role will never be done."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "melee_vintage_swd"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

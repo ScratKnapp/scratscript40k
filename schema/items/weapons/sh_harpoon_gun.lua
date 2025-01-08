@@ -1,0 +1,9 @@
+ITEM.name = "Harpoon Gun"
+ITEM.description = "Class: Basic | Range: 60m | Rate of Fire: S/-/- | Damage: 1d10+4 R | Penetration: 2 | Capacity: 1 | Reload: Full | Special: Snare/Tearing | Availability: Rare"
+ITEM.longdesc = "An even bigger harpoon! It restrains them... as it would with a two foot long stake driven through someone."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "grappling_hook"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

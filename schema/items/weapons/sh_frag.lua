@@ -1,0 +1,9 @@
+ITEM.name = "Frag"
+ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: S/-/- | Damage: 2d10 X | Penetration: 0 | Capacity: - | Reload: - | Special: Blast 4 | Availability: Common"
+ITEM.longdesc = "Pull the pin, chuck it. How can it be anymore difficult?"
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "wk_grenade_frag"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

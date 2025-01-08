@@ -1,0 +1,9 @@
+ITEM.name = "Archeotech Power Axe"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 3d10+5 E | Penetration: 10 | Capacity: - | Reload: - | Special: Powerfield | Availability: Unique"
+ITEM.longdesc = "A power axe that was almost forgotten to time in how to replicate, but once it was discovered, manufacturing began again. Though with how detailed and taxing it is to make, only a few have been created. This makes all other power weapons grimace with it's destructive potential."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arc9_wk_eccl_exec_axe"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

@@ -1,0 +1,9 @@
+ITEM.name = "Digi-Laser"
+ITEM.description = "Class: Pistol | Range: 3m | Rate of Fire: S/-/- | Damage: 1d10+4 E | Penetration: 7 | Capacity: 1 | Reload: Full | Special: Reliable/Accurate | Availability: Extremely Rare"
+ITEM.longdesc = "A piece of jewlery that containing minature components to hit someone hard in an emergency."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_helios"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

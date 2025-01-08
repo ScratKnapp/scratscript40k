@@ -1,0 +1,9 @@
+ITEM.name = "Virus"
+ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: S/-/- | Damage: 3d10 I | Penetration: 0 | Capacity: - | Reload: - | Special: Toxic/Virus | Availability: Unique"
+ITEM.longdesc = "A violatile and dangerous payload. It will jump to the next target, until there is nothing left to evicerate."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arccw_apex_nade_nox"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

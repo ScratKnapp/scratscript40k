@@ -1,0 +1,10 @@
+ITEM.name = "Heavy Stubber Orthlack"
+ITEM.description = "Class: Heavy | Range: 120m | Rate of Fire: -/-/10 | Damage: 1d10+5 I | Penetration: 3 | Capacity: 200 | Reload: 2 Full | Special: - | Availability: Average"
+ITEM.longdesc = "Mount up, and dump everything down range."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arc9_wk_arbites_hstubber"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1
+ITEM.auto = 10

@@ -1,0 +1,13 @@
+ITEM.name = "Boarding Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Armor for shipboard assaults."
+ITEM.longdesc = "Specialized for void engagements, this armor features reinforced plating and sealed systems for hostile environments."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 22
+ITEM.type = "Heavy"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Void-Suit", "Photo-Visor" }

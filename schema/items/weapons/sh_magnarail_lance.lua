@@ -1,0 +1,9 @@
+ITEM.name = "Magnarail Lance"
+ITEM.description = "Class: Heavy | Range: 180m | Rate of Fire: S/-/- | Damage: 3d10+2 I | Penetration: 8 | Capacity: 2 | Reload: 4 Full | Special: Mechanicus/Accurate | Availability: Near Unique"
+ITEM.longdesc = "A plasma rail that the Mechanicus best usually field. This fires an utterly piercing beam of plasma, concentrated and breaching through anyone foolish enough to be in front of it."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_seraphim"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

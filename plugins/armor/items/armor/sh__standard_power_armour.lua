@@ -1,0 +1,14 @@
+ITEM.name = "Standard Power Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "The standard issue Astartes power armor."
+ITEM.longdesc = "Heavy power armor with void-suit integration, Astartes enhancements, and superior blast resistance."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.race = "Astartes"
+ITEM.AP = 28
+ITEM.type = "Power"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Void-Suit", "Astartes", "Photo-Visor", "Blast-Resistant" }

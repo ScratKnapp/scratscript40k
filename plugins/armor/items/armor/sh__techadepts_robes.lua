@@ -1,0 +1,13 @@
+ITEM.name = "Tech-Adept's Robes"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Robes worn by Tech-Adepts."
+ITEM.longdesc = "Medium-strength robes featuring a respirator and photo-visor, offering protection and utility for Mechanicus personnel."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 17
+ITEM.type = "Medium"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Respirator", "Photo-Visor" }

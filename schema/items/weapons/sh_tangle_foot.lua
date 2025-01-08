@@ -1,0 +1,9 @@
+ITEM.name = "Tangle Foot"
+ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: S/-/- | Damage: - | Penetration: 0 | Capacity: - | Reload: - | Special: Blast 2/Snare | Availability: Extremely Rare"
+ITEM.longdesc = "A Mechanicus creation, creating a gravimetric field that renders the target deblitated by overpowering gravity."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_cryon"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

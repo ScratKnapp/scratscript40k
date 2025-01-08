@@ -1,0 +1,10 @@
+ITEM.name = "Xenos Flechette Blaster"
+ITEM.description = "Class: Basic | Range: 20m | Rate of Fire: S/-/3 | Damage: 3d10 R | Penetration: 2 | Capacity: 40 | Reload: 2 Full | Special: Tearing/Blast 2 | Availability: Very Rare"
+ITEM.longdesc = "A cruel xeno weapon that fires out flechette rounds that vibrate before exploding into a scatter of shrapnel. Cruel at least, in your terms. You can remember that the Mechanicus uses something similar..."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_hornet"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1
+ITEM.auto = 3

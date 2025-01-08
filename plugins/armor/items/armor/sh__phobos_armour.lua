@@ -1,0 +1,14 @@
+ITEM.name = "Phobos-Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Advanced Phobos power armor."
+ITEM.longdesc = "Power armor offering exceptional blast resistance, void-suit integration, and Astartes enhancements."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.race = "Astartes"
+ITEM.AP = 25
+ITEM.type = "Power"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Void-Suit", "Astartes", "Photo-Visor", "Blast-Resistant" }

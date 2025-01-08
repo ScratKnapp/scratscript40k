@@ -1,0 +1,9 @@
+ITEM.name = "Bolas"
+ITEM.description = "Class: Thrown | Range: 15m | Rate of Fire: S/-/- | Damage: - | Penetration: 0 | Capacity: 1 | Reload: - | Special: Primitive/Snare/Inaccurate | Availability: Average"
+ITEM.longdesc = "Heavy weights tied together with a snare. Now get a deep voice and talk about Justice."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arc9_wk_ogryn_grenade_brick"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

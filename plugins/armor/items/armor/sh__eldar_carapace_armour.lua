@@ -1,0 +1,14 @@
+ITEM.name = "Eldar Carapace Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Eldar medium armor."
+ITEM.longdesc = "A medium-strength armor combining blast resistance with the subtle protective power of minor runes."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.race = "Eldar"
+ITEM.AP = 18
+ITEM.type = "Medium"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Blast-Resistant", "Minor-Runes" }

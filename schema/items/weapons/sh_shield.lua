@@ -1,0 +1,9 @@
+ITEM.name = "Shield"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d5 I | Penetration: 0 | Capacity: - | Reload: - | Special: Primitive/Defensive, Provides +1 Armor | Availability: Common"
+ITEM.longdesc = "A broad metal shield. May your shield give you shade, and your enemy not have AP Rounds on hand."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "melee_adp-ss_shiled-sword"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

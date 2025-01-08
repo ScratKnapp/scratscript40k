@@ -1,0 +1,10 @@
+ITEM.name = "Heavy Stubber Ursid"
+ITEM.description = "Class: Heavy | Range: 120m | Rate of Fire: -/-/10 | Damage: 1d10+5 I | Penetration: 3 | Capacity: 40 | Reload: Full | Special: - | Availability: Scarce"
+ITEM.longdesc = "This is more of an autocannon than a stubber. Whatever, specifics won't matter when it's making someone to a red mist."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arc9_wk_ogryn_reaperstubber"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1
+ITEM.auto = 10

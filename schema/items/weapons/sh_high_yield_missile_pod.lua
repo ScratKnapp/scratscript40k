@@ -1,0 +1,10 @@
+ITEM.name = "High Yield Missile Pod"
+ITEM.description = "Class: Heavy | Range: 200m | Rate of Fire: S/-/6 | Damage: 3d10+3 X | Penetration: 6 | Capacity: 72 | Reload: 2 Full | Special: Blast (3) | Availability: Near Unique"
+ITEM.longdesc = "The only way to bring even more missiles and more explosive payload, is to make the largest missile pod there is. Rain hellfire."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_rocket_launcher"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1
+ITEM.auto = 6

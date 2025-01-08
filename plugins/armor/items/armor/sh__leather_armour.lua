@@ -1,0 +1,13 @@
+ITEM.name = "Leather Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "A basic leather armor."
+ITEM.longdesc = "Light and flexible, this armor provides minimal protection, often used by those needing agility."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 8
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = {}

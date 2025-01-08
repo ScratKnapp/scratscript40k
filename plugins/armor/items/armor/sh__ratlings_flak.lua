@@ -1,0 +1,13 @@
+ITEM.name = "Ratling's Flak"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Light flak armor for Ratlings."
+ITEM.longdesc = "A lightweight flak armor designed for stealthy operations, favored by Ratlings."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 12
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Stealth" }

@@ -1,0 +1,13 @@
+ITEM.name = "Zealot's Robes"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Robes of a devout zealot."
+ITEM.longdesc = "Intimidating robes worn by zealots to inspire fear and fervor among followers and enemies alike."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 0
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Intimidating" }

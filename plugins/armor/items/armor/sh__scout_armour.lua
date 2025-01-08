@@ -1,0 +1,14 @@
+ITEM.name = "Scout Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Stealth-oriented Scout armor."
+ITEM.longdesc = "Light armor designed for stealth operations, equipped with a void-suit, photo-visor, and advanced concealment features."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.race = "Astartes"
+ITEM.AP = 18
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Void-Suit", "Stealth", "Photo-Visor" }

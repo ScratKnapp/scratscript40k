@@ -1,0 +1,9 @@
+ITEM.name = "Digi-Flamer"
+ITEM.description = "Class: Pistol | Range: 3m | Rate of Fire: S/-/- | Damage: 1d10+4 E | Penetration: - | Capacity: 1 | Reload: Full | Special: Reliable/Flame | Availability: Extremely Rare"
+ITEM.longdesc = "A piece of jewlery that containing minature components to hit someone hard in an emergency. Unlike the Digi-Laser, this instead has a bit of fuel to torch someone in a blink of an eye."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "zad_eldar_flamer"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

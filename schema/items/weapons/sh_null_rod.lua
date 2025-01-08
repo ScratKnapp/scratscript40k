@@ -1,0 +1,9 @@
+ITEM.name = "Null Rod"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+5 E | Penetration: 4 | Capacity: - | Reload: - | Special: Powerfield/Nullifying | Availability: Near Unique"
+ITEM.longdesc = "An obsidian black anti-psyker weapon employed by an enigmatic group in the Imperium. It less nullifies the victims it strikes, but steals it. It's said that the energy it collects needs to be released afterwards, less it create a warp rift..."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "kalatushka"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

@@ -1,0 +1,9 @@
+ITEM.name = "Krak Missile"
+ITEM.description = "Class: Can only be shot with a launcher | Range: - | Rate of Fire: - | Damage: 3d10+10 X | Penetration: 10 | Capacity: - | Reload: - | Special: Blast 1 | Availability: Scarce"
+ITEM.longdesc = "A shaped explosive charge with implosion capabilities, the tank remover."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "wk_grenade_krak"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

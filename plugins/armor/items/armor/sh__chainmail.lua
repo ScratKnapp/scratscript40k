@@ -1,0 +1,13 @@
+ITEM.name = "Chainmail"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "A protective chainmail armor."
+ITEM.longdesc = "Standard medium armor, designed to offer decent protection against slashing and piercing attacks."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 14
+ITEM.type = "Medium"
+ITEM.quality = "Normal"
+ITEM.specialQualities = {}

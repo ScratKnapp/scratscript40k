@@ -1,0 +1,9 @@
+ITEM.name = "Rail Rifle"
+ITEM.description = "Class: Basic | Range: 150m | Rate of Fire: S/-/- | Damage: 3d10+2 I | Penetration: 12 | Capacity: 12 | Reload: Full | Special: Felling/Proven (2) | Availability: Near Unique"
+ITEM.longdesc = "A contrary to the plasma weaponry they usually field, this is instead a railgun rifle. This'll take the head of the most armored."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arccw_apex_kraber"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

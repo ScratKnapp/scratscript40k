@@ -164,18 +164,24 @@ end
 
 function ITEM:OnInstanced()
 
-	if self.quality == "Good" then
-		self.AP = self.AP + 5
-	end 
-
-	if self.quality == "Best" then
-		self.AP = self.AP + 6
-	end 
-
 	self:SetData("AP", self.AP)
 	self:SetData("MaxAP", self:GetData("AP"))
 	self:SetData("Type", self.type)
 	self:SetData("Quality", self.quality)
+
+	local AP = self:GetData("AP")
+	local MaxAP = self:GetData("MaxAP")
+
+
+	if self.quality == "Good" then
+		self:SetData("AP", AP + 5)
+		self:SetData("MaxAP", MaxAP + 5)
+	end 
+
+	if self.quality == "Best" then
+		self:SetData("AP", AP + 6)
+		self:SetData("MaxAP", MaxAP + 6)
+	end 
 end
 
 

@@ -1,0 +1,14 @@
+ITEM.name = "Spider Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Warp Spider armor."
+ITEM.longdesc = "Heavy Wraithbone armor equipped with a teleportarium, void-suit, and rune-based protection for exceptional mobility."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.race = "Eldar"
+ITEM.AP = 26
+ITEM.type = "Heavy"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Wraithbone", "Minor-Runes", "Teleportarium", "Void-Suit" }

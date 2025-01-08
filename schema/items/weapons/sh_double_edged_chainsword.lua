@@ -1,0 +1,9 @@
+ITEM.name = "Double-Edged Chainsword"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+5 R | Penetration: 2 | Capacity: - | Reload: - | Special: Tearing | Availability: Average"
+ITEM.longdesc = "A large blade with two openings for the chain to run through. Try not to hit yourself with it."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_zad_chainsword"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

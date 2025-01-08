@@ -1,0 +1,10 @@
+ITEM.name = "Reaper Launcher"
+ITEM.description = "Class: Heavy | Range: 275m | Rate of Fire: -/-/6 | Damage: 2d10+2 X | Penetration: 7 | Capacity: 60 | Reload: 2 Full | Special: Accurate, Reliable | Availability: Near Unique"
+ITEM.longdesc = "The Reaper Launcher is a heavy weapon designed for long-range engagements, dealing devastating damage to armored targets."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "zad_eldar_reaper_launcher"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1
+ITEM.auto = 6

@@ -1,0 +1,9 @@
+ITEM.name = "Burning Blade"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+5 E | Penetration: 4 | Capacity: - | Reload: - | Special: Powerfield/Balanced | Availability: Extremely Rare"
+ITEM.longdesc = "A blade mimicking the artifact of the Astartes, with a burning blade that never ceases. Reshaped to fit the average man."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "melee_yarik_swd"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

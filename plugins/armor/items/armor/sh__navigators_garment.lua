@@ -1,0 +1,13 @@
+ITEM.name = "Navigator's Garment"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Elegant and protective attire for Navigators."
+ITEM.longdesc = "A light garment offering the prestige of the Navis Nobilite and a built-in force-field for protection."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 22
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Navis-Nobilite", "Fashionable", "Force-Field" }

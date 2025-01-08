@@ -1,0 +1,10 @@
+ITEM.name = "Autopistol"
+ITEM.description = "Class: Pistol | Range: 30m | Rate of Fire: S/-/6 | Damage: 1d10+2 I | Penetration: 0 | Capacity: 18 | Reload: Full | Special: - | Availability: Common"
+ITEM.longdesc = "Keep dumping rounds! Spray and pray! Hope that you don't loose control and magdump your friend!"
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_bo3_lcar9"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1
+ITEM.auto = 6

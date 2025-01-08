@@ -1,0 +1,13 @@
+ITEM.name = "Abhuman-Flak"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Standard flak armor for Abhumans."
+ITEM.longdesc = "Medium flak armor offering solid blast resistance, suitable for a variety of abhuman soldiers."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 16
+ITEM.type = "Medium"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Blast-Resistant" }

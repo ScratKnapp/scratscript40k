@@ -1,0 +1,9 @@
+ITEM.name = "Fusion Blade"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 2d10+8 E | Penetration: 12 | Capacity: - | Reload: - | Special: Unstable/Melta | Availability: Unique"
+ITEM.longdesc = "An arcing blade of energy jutting out from the end of the emitter, capable of searing through anything."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_phasma"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

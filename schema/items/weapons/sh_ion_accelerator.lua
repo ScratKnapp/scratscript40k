@@ -1,0 +1,10 @@
+ITEM.name = "Ion Accelerator"
+ITEM.description = "Class: Heavy | Range: 200m | Rate of Fire: S/3/6 | Damage: 3d10+5 E | Penetration: 10 | Capacity: 90 | Reload: 2 Full | Special: Overcharge (8) | Availability: Near Unique"
+ITEM.longdesc = "A beam of energy that will rend the opponent in two pieces, slag the only evidence."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arccw_apex_chargerifle"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 3
+ITEM.auto = 6

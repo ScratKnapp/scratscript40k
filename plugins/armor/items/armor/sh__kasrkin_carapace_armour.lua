@@ -1,0 +1,13 @@
+ITEM.name = "Kasrkin Carapace Armour"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Kasrkin medium carapace."
+ITEM.longdesc = "Worn by elite Kasrkin troops, this medium armor features blast resistance and optical enhancements."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 18
+ITEM.type = "Medium"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Blast-Resistant", "Photo-Visor" }

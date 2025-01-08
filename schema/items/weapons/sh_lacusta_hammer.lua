@@ -1,0 +1,9 @@
+ITEM.name = "Lacusta Hammer"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+2 I | Penetration: 0 | Capacity: - | Reload: - | Special: Primitive/Unbalanced | Availability: Average"
+ITEM.longdesc = "A heavy hammer, built for smashing down target while mounted."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "arc9_wk_pers_veber_sledgehammer"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

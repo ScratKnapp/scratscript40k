@@ -1,0 +1,9 @@
+ITEM.name = "Loi Pattern Power Axe"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+7 E | Penetration: 9 | Capacity: - | Reload: - | Special: Powerfield/Unbalanced | Availability: Extremely Rare"
+ITEM.longdesc = "A large power axe that reaches the same power as the Mezoa, but instead trades the explosive power with a larger shaft. Giving it much more potential energy behind each swing."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "melee_soror_haxe"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

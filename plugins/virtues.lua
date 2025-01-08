@@ -29,7 +29,10 @@ function charMeta:GetSanity()
 end 
 
 function charMeta:GetWillpower()
-   return self:GetCourage() + self:GetData("Willpower", 0)
+    local WP = (self:GetCourage() + self:GetData("Willpower", 0)) - self:GetData("SpentWP", 0)
+    if WP < 0 then WP = 0 end 
+
+    return WP
 end 
 
 ix.command.Add("Virtues", {
@@ -45,21 +48,20 @@ ix.command.Add("Virtues", {
 })
 
 
-ix.command.Add("CharGetVirtues", {
-	description = "Display virtues of given character.",
-    privilege = "Manage Character Attributes",
-	adminOnly = true,
+ix.command.Add("WP", {
+	description = "Spend some Willpower for the day.",
     arguments = {
-		ix.type.character,
+		ix.type.number,
 	},
-	OnRun = function(self, client, target)
-		local char = target
-        client:Notify("Virtues for " .. target:GetName() .. ":")
-		client:Notify("Conscience: " .. char:GetConscience())
-        client:Notify("Self Control: " .. char:GetSelfControl())
-        client:Notify("Courage: " .. char:GetCourage())
-        client:Notify("Sanity: " .. char:GetSanity())
-        client:Notify("Willpower: " .. char:GetWillpower())
+	OnRun = function(self, client, amount)
+		local char = client:GetCharacter()
+        local WP = char:GetWillpower()
+
+        if WP <= 0 then return "You have no Willpower left to spend." end
+        if WP < amount then return "You don't have enough Willpower to spend " .. amount .. " points." end 
+
+        char:SetData("SpentWP", char:GetData("SpentWP", 0) + amount)
+        return "You spent " .. amount .. " points of Willpower. You have " ..char:GetWillpower() .. " remaining."
 	end
 })
 

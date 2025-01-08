@@ -1,0 +1,9 @@
+ITEM.name = "Frag Missile"
+ITEM.description = "Class: Can only be shot with a launcher | Range: - | Rate of Fire: - | Damage: 2d10 X | Penetration: 0 | Capacity: - | Reload: - | Special: Blast 6 | Availability: Average"
+ITEM.longdesc = "A shaped explosive charge with shrapnel, the crowd remover."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "wk_grenade_frag"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

@@ -1,0 +1,9 @@
+ITEM.name = "Astartes Powerfist"
+ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 2d10+6 E | Penetration: 6 | Capacity: - | Reload: - | Special: Crippling/Powerfield | Availability: Near Unique"
+ITEM.longdesc = "To any unaugmented human, this would seem too massive to even be considered a weapon. The powerfist is sized to an Astartes fist, and holding a massive powerfield that ripples through it, waiting to explode against enemies of the Throne."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_zad_powerfist"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

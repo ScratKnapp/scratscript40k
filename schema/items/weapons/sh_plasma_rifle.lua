@@ -1,0 +1,10 @@
+ITEM.name = "Plasma Rifle"
+ITEM.description = "Class: Heavy | Range: 90m | Rate of Fire: S/2/4 | Damage: 2d10+4 E | Penetration: 10 | Capacity: 16 | Reload: Full | Special: - | Availability: Extremely Rare"
+ITEM.longdesc = "A heavy brick of a plasma rifle. Unlike the Pulse, this is less of a precise shot. More of a broad target remover."
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "tfa_hwh40k_plasmacannon"
+ITEM.weaponCategory = "primary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 2
+ITEM.auto = 4

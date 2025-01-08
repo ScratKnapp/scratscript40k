@@ -1,0 +1,13 @@
+ITEM.name = "Tech-Priest Robes"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Robes worn by Tech-Priests."
+ITEM.longdesc = "Highly advanced robes offering medical, respiratory, and optical systems, along with protective Mechanicus blessings."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 20
+ITEM.type = "Medium"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Respirator", "Photo-Visor", "Medicae", "Deus Mechanicus", "Force-Field" }

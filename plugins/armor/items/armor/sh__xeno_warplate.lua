@@ -1,0 +1,13 @@
+ITEM.name = "Xeno-Warplate"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "Heavy alien warplate."
+ITEM.longdesc = "A durable warplate equipped with a void-suit, offering unparalleled resistance against blasts and harsh environments."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = false
+ITEM.AP = 22
+ITEM.type = "Heavy"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Void-Suit", "Blast-Resistant" }

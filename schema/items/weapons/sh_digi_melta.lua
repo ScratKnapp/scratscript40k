@@ -1,0 +1,9 @@
+ITEM.name = "Digi-Melta"
+ITEM.description = "Class: Pistol | Range: 3m | Rate of Fire: S/-/- | Damage: 2d10+4 E | Penetration: 12 | Capacity: 1 | Reload: Full | Special: Reliable/Melta | Availability: Extremely Rare"
+ITEM.longdesc = "A piece of jewlery that containing minature components to hit someone hard in an emergency. Unlike the Digi-Laser, this instead has enough energy to strike someone with a melta gun!"
+ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
+ITEM.class = "sfw_hellfire"
+ITEM.weaponCategory = "secondary"
+ITEM.width = 2
+ITEM.height = 2
+ITEM.ROF = 1

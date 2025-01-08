@@ -1,0 +1,13 @@
+ITEM.name = "Nullifying Cloak"
+ITEM.model = "models/props_c17/BriefCase001a.mdl"
+ITEM.description = "A stealthy, nullifying cloak."
+ITEM.longdesc = "This light cloak provides excellent stealth capabilities while nullifying psychic interference."
+ITEM.height = 2
+ITEM.width = 2
+ITEM.isArmor = true
+ITEM.isBodyArmor = true
+ITEM.humanOnly = true
+ITEM.AP = 20
+ITEM.type = "Light"
+ITEM.quality = "Normal"
+ITEM.specialQualities = { "Stealth", "Nullifying" }
