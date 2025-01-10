@@ -2,7 +2,7 @@
 -- The shared init file. You'll want to fill out the info for your schema and include any other files that you need.
 
 -- Schema info
-Schema.name = "Scratscipt WWC"
+Schema.name = "Scratscipt 40k"
 Schema.author = "nebulous"
 Schema.description = "A base schema for development."
 
