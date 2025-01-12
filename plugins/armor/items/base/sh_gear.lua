@@ -11,11 +11,7 @@ ITEM.isBodyArmor = false
 ITEM.resistance = true
 ITEM.outfitCategory = "hat"
 ITEM.longdesc = "No longer description available."
-ITEM.category = "Armor"
-ITEM.br = 0
-ITEM.fbr = 0
-ITEM.ar = 0
-ITEM.far = 0
+ITEM.category = "Gear"
 ITEM.skincustom = {}
 
 
@@ -361,30 +357,7 @@ ITEM.functions.Equip = {
 		local character = client:GetCharacter()
 		local items = character:GetInventory():GetItems()
 
-		if item.isPowerArmor and not character:HasFeat("patraining") then client:NewVegasNotify("You need Power Armor Training to equip this.", "factionBrotherhood", 5) return false end
-		
-		for _, v in pairs(items) do
-			if (v.id != item.id) then
-				local itemTable = ix.item.instances[v.id]
-				if itemTable then
-					if (v.outfitCategory == item.outfitCategory and itemTable:GetData("equip")) then
-						print("Success")
-						item.player:Notify("You're already equipping this kind of outfit")
-						return false
-					end
-
-					if (v.isHelmet == true and item.isHelmet == true and itemTable:GetData("equip")) then
-						item.player:Notify("You are already equipping a helmet!")
-						return false
-					end
-
-					if (v.isGasmask == true and item.isGasmask == true and itemTable:GetData("equip")) then
-						item.player:Notify("You are already equipping a gasmask!")
-						return false
-					end
-				end
-			end
-		end
+		if character:GetFreeAugmentSlots() == 0 then return "You can only equip a maximum of " .. character:GetMaxAugmentSlots() .. " augments equipped." end 
 
 		item:SetData("equip", true)
 		

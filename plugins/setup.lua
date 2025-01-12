@@ -241,82 +241,40 @@ ix.command.Add("ChooseVirtues", {
 
     if not virtue then 
       client:Notify("You may spend up to 10 Virtue points on one of three virtues: Conscience, Self Control, and Courage, each with a max level of 5.")
-      client:Notify("Each level costs your current level * 2, so the first level costs 1 point, the second level costs an additional 2 points, and so on.")
+      client:Notify("Each level costs 1 Virtue point, but will cost more in Experience later down the line.")
       return
     end 
 
     virtue = string.lower(virtue)
 
     if virtue == "conscience" then 
-
       local currentlevel = char:GetConscience()
       if currentlevel >= 5 then return "This Virtue is already at its maximum value of 5." end 
-      local upgradecost = currentlevel * 2
-  
-      if upgradecost == 0 then 
-        upgradecost = 1 
-      end 
-
-      if upgradecost > virtuepoints then 
-        return "It costs " .. upgradecost .. " points to upgrade Conscience from Level " .. currentlevel .. " to " .. currentlevel + 1 .. " but you only have " .. virtuepoints .. "!"
-      else
-        char:SetData("Conscience", currentlevel + 1)
-        char:SetData("VirtuePoints", virtuepoints - upgradecost)
-        client:Notify("You upgraded Conscience from level " .. currentlevel .. " to " .. char:GetConscience() .. " at a cost of " .. upgradecost .. " Virtue Points.")
+      char:SetData("Conscience", currentlevel + 1)
+      char:SetData("VirtuePoints", virtuepoints - 1)
+      client:Notify("You upgraded Conscience from level " .. currentlevel .. " to " .. char:GetConscience() .. ".")
+      client:Notify(char:GetData("VirtuePoints", 0) .. " Virtue Points left to spend.")
+      return 
+    elseif virtue == "courage" then 
+      local currentlevel = char:GetCourage() 
+      if currentlevel >= 5 then return "This Virtue is already at its maximum value of 5." end 
+      char:SetData("Courage", currentlevel + 1)
+      char:SetData("VirtuePoints", virtuepoints - 1)
+      client:Notify("You upgraded Courage from level " .. currentlevel .. " to " .. char:GetCourage() .. ".")
+      client:Notify(char:GetData("VirtuePoints", 0) .. " Virtue Points left to spend.")
+      return 
+    elseif virtue == "selfcontrol" then 
+        local currentlevel = char:GetSelfControl() 
+        if currentlevel >= 5 then return "This Virtue is already at its maximum value of 5." end 
+        char:SetData("SelfControl", currentlevel + 1)
+        char:SetData("VirtuePoints", virtuepoints - 1)
+        client:Notify("You upgraded Self Control from level " .. currentlevel .. " to " .. char:GetSelfControl() .. ".")
         client:Notify(char:GetData("VirtuePoints", 0) .. " Virtue Points left to spend.")
         return 
-      end 
-
-  elseif virtue == "courage" then 
-
-    local currentlevel = char:GetCourage() 
-    if currentlevel >= 5 then return "This Virtue is already at its maximum value of 5." end 
-    local upgradecost = currentlevel * 2
-
-    if upgradecost == 0 then 
-      upgradecost = 1 
-    end 
-
-    if upgradecost > virtuepoints then 
-      return "It costs " .. upgradecost .. " points to upgrade Courage from Level " .. currentlevel .. " to " .. currentlevel + 1 .. " but you only have " .. virtuepoints .. "!"
     else
-      char:SetData("Courage", currentlevel + 1)
-      char:SetData("VirtuePoints", virtuepoints - upgradecost)
-      client:Notify("You upgraded Courage from level " .. currentlevel .. " to " .. char:GetCourage() .. " at a cost of " .. upgradecost .. " Virtue Points.")
-      client:Notify(char:GetData("VirtuePoints", 0) .. " Virtue Points left to spend.")
-      return 
-    end 
-
- elseif virtue == "selfcontrol" then 
-
-    local currentlevel = char:GetSelfControl() 
-    if currentlevel >= 5 then return "This Virtue is already at its maximum value of 5." end 
-    local upgradecost = currentlevel * 2
-
-    if upgradecost == 0 then 
-      upgradecost = 1 
-    end 
-
-    if upgradecost > virtuepoints then 
-      return "It costs " .. upgradecost .. " points to upgrade Self Control from Level " .. currentlevel .. " to " .. currentlevel + 1 .. " but you only have " .. virtuepoints .. "!"
-    else
-      char:SetData("SelfControl", currentlevel + 1)
-      char:SetData("VirtuePoints", virtuepoints - upgradecost)
-      client:Notify("You upgraded Self Control from level " .. currentlevel .. " to " .. char:GetSelfControl() .. " at a cost of " .. upgradecost .. " Virtue Points.")
-      client:Notify(char:GetData("VirtuePoints", 0) .. " Virtue Points left to spend.")
-      return 
-    end 
-  else
       return "Invalid virtue. Valid options are: conscience, courage, selfcontrol."
-
+    end 
   end 
-
-
-
-
-
-      
-  end
 })
 
 

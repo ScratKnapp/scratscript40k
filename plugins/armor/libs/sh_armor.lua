@@ -33,3 +33,33 @@ function characterMeta:GetDR()
   return DR
 end 
 
+function characterMeta:GetMaxAugmentSlots()
+  local slots = self:GetSanity()
+
+  if self:GetBackground() == "Adeptus Mechanicus" then
+    slots = slots * 2
+  end 
+
+  if slots < 0 then slots = 0 end 
+
+  return slots
+end 
+
+function characterMeta:GetFreeAugmentSlots()
+  local maxslots = self:GetMaxAugmentSlots()
+
+  local inventory = self:GetInventory()
+  local usedslots = 0
+
+  for k, v in pairs (inventory:GetItems()) do
+    if v:GetData("equip", false) and v.isAugment then usedslots = usedslots + 1 end 
+  end
+
+
+  local freeslots = maxslots - usedslots
+  if freeslots < 0 then freeslots = 0 end 
+
+  return freeslots
+end 
+
+
