@@ -1,2 +1,2 @@
-PROFESSION.name = "Inquisitorial Acolyte"
+﻿PROFESSION.name = "Inquisitorial Acolyte"
 PROFESSION.skill = "jurisprudence"

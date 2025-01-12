@@ -1,4 +1,4 @@
-ITEM.name = "Rocketfire Gun"
+﻿ITEM.name = "Rocketfire Gun"
 ITEM.description = "Class: Basic | Range: 80m | Rate of Fire: S/-/- | Damage: 1d10+5 I | Penetration: 4 | Capacity: 6 | Reload: Full | Special: Tearing/Reliable | Availability: Very Rare"
 ITEM.longdesc = "A somewhat cheap, imitation of what the boltgun is. It's as if someone was told that the bullets were rocket propelled and nothing else, and it shows. While it does hit with a heavy impact, it's clearly nothing close to the Astartes' personal choice. It's no wonder that it's rare to encounter now."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

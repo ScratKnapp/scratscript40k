@@ -1,4 +1,4 @@
-ITEM.name = "Kroot Rifle Melee"
+﻿ITEM.name = "Kroot Rifle Melee"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10 R | Penetration: 0 | Capacity: - | Reload: - | Special: Balanced | Availability: -"
 ITEM.longdesc = "The spikes at the end of the kroot rifle aren't there for nothing! Slam this down onto your hunted game if it gets too close."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

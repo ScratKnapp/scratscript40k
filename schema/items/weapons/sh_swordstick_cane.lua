@@ -1,4 +1,4 @@
-ITEM.name = "Swordstick Cane"
+﻿ITEM.name = "Swordstick Cane"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10 R | Penetration: 0 | Capacity: - | Reload: - | Special: Primitive/Balanced | Availability: Scarce"
 ITEM.longdesc = "A blade hidden within the shaft of the cane. How elegent."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

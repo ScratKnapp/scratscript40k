@@ -1,4 +1,4 @@
-ITEM.name = "Auxiliary Armour"
+﻿ITEM.name = "Auxiliary Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Standard issue for T'au auxiliaries."
 ITEM.longdesc = "Medium armor designed for T'au auxiliaries, featuring integrated photo-visor and respirator for battlefield conditions."
@@ -11,4 +11,4 @@ ITEM.race = "Tau"
 ITEM.AP = 15
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Photo-Visor", "Respirator" }
+ITEM.specialQualities = {"Photo-Visor", "Respirator"}

@@ -1,1 +1,1 @@
-CHARCLASS.name = "Officer"
+﻿CHARCLASS.name = "Officer"

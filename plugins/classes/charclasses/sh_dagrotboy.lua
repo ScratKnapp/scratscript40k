@@ -1,2 +1,2 @@
-CHARCLASS.name = "Da Grot Boy"
+﻿CHARCLASS.name = "Da Grot Boy"
 CHARCLASS.race = "Gretchin"

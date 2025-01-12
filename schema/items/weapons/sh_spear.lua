@@ -1,4 +1,4 @@
-ITEM.name = "Spear"
+﻿ITEM.name = "Spear"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10 R | Penetration: 0 | Capacity: - | Reload: - | Special: Primitive | Availability: Common"
 ITEM.longdesc = "A sharp blade at the end of a stick. Fight many beasts with this one."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

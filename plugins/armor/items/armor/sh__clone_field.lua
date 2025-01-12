@@ -1,4 +1,4 @@
-ITEM.name = "Clone Field"
+﻿ITEM.name = "Clone Field"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A unique field creating decoys."
 ITEM.longdesc = "This near-unique armor utilizes a clone field to confuse opponents and enhance survivability."
@@ -11,4 +11,4 @@ ITEM.race = "Eldar"
 ITEM.AP = 18
 ITEM.type = "Unique"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Clone-Field" }
+ITEM.specialQualities = {"Clone-Field"}

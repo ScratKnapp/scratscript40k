@@ -1,4 +1,4 @@
-ITEM.name = "Lightning Cannon"
+﻿ITEM.name = "Lightning Cannon"
 ITEM.description = "Class: Basic | Range: 60m | Rate of Fire: S/-/- | Damage: 2d5+4 E | Penetration: 4 | Capacity: 2 | Reload: Full | Special: Overheat/Shocking | Availability: Near Unique"
 ITEM.longdesc = "A smaller version of the massive weapon on Knights or Tanks. The power clearly diminished, but still more than capable of melting armor away."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

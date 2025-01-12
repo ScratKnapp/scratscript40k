@@ -1,4 +1,4 @@
-ITEM.name = "Omnissian Axe"
+﻿ITEM.name = "Omnissian Axe"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 2d10+4 E | Penetration: 6 | Capacity: - | Reload: - | Special: Powerfield/Unbalanced/Mechanicus | Availability: Extremely Rare"
 ITEM.longdesc = "A coglike axe head to drive into your foes. Strength in brass."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

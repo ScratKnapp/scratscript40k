@@ -1,4 +1,4 @@
-ITEM.name = "Geode"
+﻿ITEM.name = "Geode"
 ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: S/-/- | Damage: 2d10+3 R | Penetration: 4 | Capacity: - | Reload: - | Special: Blast 3 | Availability: Extremely Rare"
 ITEM.longdesc = "A crystaline grenade, that would be mistaken for art if it wasn't capable of throwing diamantine shrapnel."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

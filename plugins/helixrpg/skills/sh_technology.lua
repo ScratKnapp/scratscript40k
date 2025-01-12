@@ -1,1 +1,1 @@
-SKILL.name = "Technology"
+﻿SKILL.name = "Technology"

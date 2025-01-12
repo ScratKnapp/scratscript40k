@@ -1,4 +1,4 @@
-ITEM.name = "Neural Whip"
+﻿ITEM.name = "Neural Whip"
 ITEM.description = "Class: Melee | Range: 3m | Rate of Fire: - | Damage: 1d10+1 R | Penetration: 0 | Capacity: - | Reload: - | Special: Flexible/Shocking | Availability: Rare"
 ITEM.longdesc = "An enslaver's favorite. Or a livestock whip. Strike to debilitate."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

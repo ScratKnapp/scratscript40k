@@ -1,4 +1,4 @@
-ITEM.name = "Heavy Carapace Armour"
+﻿ITEM.name = "Heavy Carapace Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Heavy-duty carapace armor."
 ITEM.longdesc = "This heavily reinforced armor offers exceptional blast protection and built-in respiratory systems."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 20
 ITEM.type = "Heavy"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant", "Respirator" }
+ITEM.specialQualities = {"Blast-Resistant", "Respirator"}

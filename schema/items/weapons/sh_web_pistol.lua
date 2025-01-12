@@ -1,4 +1,4 @@
-ITEM.name = "Web Pistol"
+﻿ITEM.name = "Web Pistol"
 ITEM.description = "Class: Pistol | Range: 30m | Rate of Fire: S/-/- | Damage: 1d5 R | Penetration: 0 | Capacity: 1 | Reload: Full | Special: Snare | Availability: Rare"
 ITEM.longdesc = "A specialized pistol that launches a sticky mesh over the target. Usually used by police forces to restrain targets. It doesn't kill, unless the user continues to stack mesh until it crushes the target."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

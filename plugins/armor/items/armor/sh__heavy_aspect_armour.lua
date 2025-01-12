@@ -1,4 +1,4 @@
-ITEM.name = "Heavy Aspect Armour"
+﻿ITEM.name = "Heavy Aspect Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Heavy Eldar armor."
 ITEM.longdesc = "Heavy Wraithbone armor for Aspect Warriors, combining rune protection, void-suit capabilities, and advanced optics."
@@ -11,4 +11,4 @@ ITEM.race = "Eldar"
 ITEM.AP = 26
 ITEM.type = "Heavy"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Wraithbone", "Minor-Runes", "Void-Suit", "Photo-Visor" }
+ITEM.specialQualities = {"Wraithbone", "Minor-Runes", "Void-Suit", "Photo-Visor"}

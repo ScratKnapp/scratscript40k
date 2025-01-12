@@ -1,4 +1,4 @@
-ITEM.name = "Galvanic Exo-Rainment MK-II"
+﻿ITEM.name = "Galvanic Exo-Rainment MK-II"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Galvanic battle raiment."
 ITEM.longdesc = "A reinforced heavy armor offering void protection and blast resistance, favored by advanced Mechanicus personnel."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 27
 ITEM.type = "Heavy"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Void-Suit", "Photo-Visor", "Blast-Resistant" }
+ITEM.specialQualities = {"Void-Suit", "Photo-Visor", "Blast-Resistant"}

@@ -1,4 +1,4 @@
-ITEM.name = "Memory Wire"
+﻿ITEM.name = "Memory Wire"
 ITEM.description = "Class: Melee | Range: 2m | Rate of Fire: - | Damage: 1d5+1 I | Penetration: 0 | Capacity: - | Reload: - | Special: Primitive | Availability: Rare"
 ITEM.longdesc = "A strand of wire that can hit about as heavy as a brick."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

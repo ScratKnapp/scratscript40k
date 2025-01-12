@@ -1,1 +1,1 @@
-CHARCLASS.name = "Test Class 2"
+﻿CHARCLASS.name = "Test Class 2"

@@ -1,4 +1,4 @@
-ITEM.name = "Void Speargun"
+﻿ITEM.name = "Void Speargun"
 ITEM.description = "Class: Basic | Range: 10m | Rate of Fire: S/-/- | Damage: 1d10+2 R | Penetration: 2 | Capacity: 1 | Reload: Full | Special: - | Availability: Average"
 ITEM.longdesc = "Throw a big spear at the enemy. Like a harpoon!"
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

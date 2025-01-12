@@ -1,4 +1,4 @@
-ITEM.name = "Dirty Rags"
+﻿ITEM.name = "Dirty Rags"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Tattered and filthy clothing."
 ITEM.longdesc = "Worn by the destitute, these rags offer no protection and are highly unsanitary."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 1
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Disgusting" }
+ITEM.specialQualities = {"Disgusting"}

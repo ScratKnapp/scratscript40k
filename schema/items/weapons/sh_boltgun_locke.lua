@@ -1,5 +1,4 @@
-
-ITEM.name = "Boltgun Locke"
+﻿ITEM.name = "Boltgun Locke"
 ITEM.description = "Class: Basic | Range: 90m | Rate of Fire: S/2/4 | Damage: 1d10+5 X | Penetration: 4 | Capacity: 24 | Reload: Full | Special: Tearing | Availability: Very Rare"
 ITEM.longdesc = "A reliable bolter variant known for its accuracy and stopping power."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

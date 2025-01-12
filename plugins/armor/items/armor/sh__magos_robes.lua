@@ -1,4 +1,4 @@
-ITEM.name = "Magos-Robes"
+﻿ITEM.name = "Magos-Robes"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Ceremonial robes of a Magos."
 ITEM.longdesc = "A unique and highly advanced armor with void protection, Mechanicus blessings, and a force-field generator."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 30
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Void-Suit", "Photo-Visor", "Deus Mechanicus", "Force-Field" }
+ITEM.specialQualities = {"Void-Suit", "Photo-Visor", "Deus Mechanicus", "Force-Field"}

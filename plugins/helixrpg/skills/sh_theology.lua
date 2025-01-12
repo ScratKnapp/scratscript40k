@@ -1,2 +1,2 @@
-SKILL.name = "Theology"
+﻿SKILL.name = "Theology"
 SKILL.attribute = "intelligence"

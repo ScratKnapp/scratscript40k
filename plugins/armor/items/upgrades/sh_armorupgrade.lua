@@ -1,4 +1,4 @@
-ITEM.name = "Armor Upgrade"
+﻿ITEM.name = "Armor Upgrade"
 ITEM.description = "Upgrade for an armor."
 ITEM.category = "Upgrades"
 ITEM.model = "models/weapons/w_suitcase_passenger.mdl"
@@ -10,4 +10,3 @@ ITEM.flag = "1"
 ITEM.isUpgrade = true
 ITEM.weight = 1.1
 ITEM.isArmorUpg = true
-

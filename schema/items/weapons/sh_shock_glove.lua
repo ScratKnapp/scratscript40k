@@ -1,4 +1,4 @@
-ITEM.name = "Shock Glove"
+﻿ITEM.name = "Shock Glove"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+1 I | Penetration: 0 | Capacity: - | Reload: - | Special: Shocking | Availability: Rare"
 ITEM.longdesc = "A glove with an electrified palm. Subtle, and has a bit more charge than the shock knuckles."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

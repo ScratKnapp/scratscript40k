@@ -1,4 +1,4 @@
-ITEM.name = "Chain Glave"
+﻿ITEM.name = "Chain Glave"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+5 R | Penetration: 2 | Capacity: - | Reload: - | Special: Tearing/Defensive | Availability: Scarce"
 ITEM.longdesc = "A large chainblade at the end of a sturdy shaft. The metal material at the shaft is built to take a hit."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

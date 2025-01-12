@@ -1,2 +1,2 @@
-CHARCLASS.name = "Genator"
+﻿CHARCLASS.name = "Genator"
 CHARCLASS.race = "Adeptus Mechanicus"

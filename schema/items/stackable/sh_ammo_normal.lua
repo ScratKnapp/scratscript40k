@@ -1,4 +1,4 @@
-ITEM.name = "Normal Ammo"
+﻿ITEM.name = "Normal Ammo"
 ITEM.model = Model("models/Items/BoxSRounds.mdl")
 ITEM.description = "Regular ammo."
 ITEM.price = 0

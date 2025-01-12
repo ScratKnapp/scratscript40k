@@ -1,4 +1,4 @@
-ITEM.name = "Gretchin Armour"
+﻿ITEM.name = "Gretchin Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Basic Gretchin protection."
 ITEM.longdesc = "A crude and minimal armor piece used by Gretchins. Provides barely any protection but better than nothing."
@@ -11,4 +11,4 @@ ITEM.race = "Ork"
 ITEM.AP = 2
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = {  }
+ITEM.specialQualities = {}

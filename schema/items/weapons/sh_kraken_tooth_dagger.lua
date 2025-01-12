@@ -1,4 +1,4 @@
-ITEM.name = "Kraken Tooth Dagger"
+﻿ITEM.name = "Kraken Tooth Dagger"
 ITEM.description = "Class: Melee/Thrown | Range: 5m | Rate of Fire: - | Damage: 1d5+1 R | Penetration: 1 | Capacity: - | Reload: - | Special: Primitive/Bleeding | Availability: Extremely Rare"
 ITEM.longdesc = "A dagger fashioned from the tooth of a great beast. Only the most bold could find one- What do you mean you're gonna throw it?"
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

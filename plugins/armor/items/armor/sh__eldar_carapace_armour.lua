@@ -1,4 +1,4 @@
-ITEM.name = "Eldar Carapace Armour"
+﻿ITEM.name = "Eldar Carapace Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Eldar medium armor."
 ITEM.longdesc = "A medium-strength armor combining blast resistance with the subtle protective power of minor runes."
@@ -11,4 +11,4 @@ ITEM.race = "Eldar"
 ITEM.AP = 18
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant", "Minor-Runes" }
+ITEM.specialQualities = {"Blast-Resistant", "Minor-Runes"}

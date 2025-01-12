@@ -1,4 +1,4 @@
-ITEM.name = "Ard Armour"
+﻿ITEM.name = "Ard Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Reinforced heavy armor."
 ITEM.longdesc = "Built for toughness, this armor is a favorite among the most stubborn Orks."
@@ -11,4 +11,4 @@ ITEM.race = "Ork"
 ITEM.AP = 23
 ITEM.type = "Heavy"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Skrapz", "Blast Resistant" }
+ITEM.specialQualities = {"Skrapz", "Blast Resistant"}

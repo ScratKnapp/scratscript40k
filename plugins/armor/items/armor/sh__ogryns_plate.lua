@@ -1,4 +1,4 @@
-ITEM.name = "Ogryn's Plate"
+﻿ITEM.name = "Ogryn's Plate"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Heavy armor for Ogryns."
 ITEM.longdesc = "A heavy plate armor designed to withstand significant impacts and provide blast resistance."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 20
 ITEM.type = "Heavy"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant" }
+ITEM.specialQualities = {"Blast-Resistant"}

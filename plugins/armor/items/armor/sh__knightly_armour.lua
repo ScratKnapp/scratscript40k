@@ -1,4 +1,4 @@
-ITEM.name = "Knightly Armour"
+﻿ITEM.name = "Knightly Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A suit of knightly armor."
 ITEM.longdesc = "Heavy and imposing, this armor is both fashionable and intimidating, favored by noble warriors."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 15
 ITEM.type = "Heavy"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Fashionable", "Intimidating" }
+ITEM.specialQualities = {"Fashionable", "Intimidating"}

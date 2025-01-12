@@ -1,4 +1,4 @@
-ITEM.name = "Shotgun Pistol"
+﻿ITEM.name = "Shotgun Pistol"
 ITEM.description = "Class: Pistol | Range: 30m | Rate of Fire: S/-/- | Damage: 1d10+4 I | Penetration: 0 | Capacity: 1 | Reload: Full | Special: Reliable/Scatter | Availability: Average"
 ITEM.longdesc = "Either the best backup when someone wants to wack you, or the best executioner."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

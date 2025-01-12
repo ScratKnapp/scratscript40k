@@ -1,4 +1,4 @@
-ITEM.name = "Onager Gauntlet"
+﻿ITEM.name = "Onager Gauntlet"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 3d10+10 E | Penetration: 10 | Capacity: - | Reload: - | Special: Power Field/Unwieldy/Shocking | Availability: Unique"
 ITEM.longdesc = "A giant gauntlet, audibly sizziling with potential energy stored and ready to explode against a target. The T'au are weaker at close range, not weak."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

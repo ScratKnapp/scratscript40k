@@ -1,4 +1,4 @@
-ITEM.name = "Tech-Wright's Robes"
+﻿ITEM.name = "Tech-Wright's Robes"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Robes worn by aspiring Tech-Wrights."
 ITEM.longdesc = "Lightweight robes integrated with a respirator, commonly used by novice members of the Mechanicus."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 12
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Respirator" }
+ITEM.specialQualities = {"Respirator"}

@@ -1,4 +1,4 @@
-ITEM.name = "Enforcer Light Carapace"
+﻿ITEM.name = "Enforcer Light Carapace"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Stylish light carapace."
 ITEM.longdesc = "Preferred by enforcers for its blend of protection and style, this armor is both fashionable and functional."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 10
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant", "Fashionable" }
+ITEM.specialQualities = {"Blast-Resistant", "Fashionable"}

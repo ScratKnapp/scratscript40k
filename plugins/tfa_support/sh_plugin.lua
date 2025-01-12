@@ -1,7 +1,5 @@
-local PLUGIN = PLUGIN
-
+﻿local PLUGIN = PLUGIN
 PLUGIN.DoAutoCreation = true
-
 PLUGIN.name = "TFA Support"
 PLUGIN.author = "Taxin2012"
 PLUGIN.description = "Support for TFA Weapons Pack"
@@ -17,7 +15,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ]]
-
 PLUGIN.readme = [[
 What that plugin does:
 
@@ -43,8 +40,5 @@ If `false`:
 	Auto-generate only that items that described in `sh_tfa_weps.lua` file
 *Black List works for both methods
 ]]
-
-
-
 ix.util.Include("sh_tfa_support.lua")
 ix.util.Include("cl_tfa_support.lua")

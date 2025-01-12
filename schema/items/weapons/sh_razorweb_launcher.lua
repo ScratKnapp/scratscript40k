@@ -1,4 +1,4 @@
-ITEM.name = "Razorweb Launcher"
+﻿ITEM.name = "Razorweb Launcher"
 ITEM.description = "Class: Heavy | Range: 15m | Rate of Fire: S/-/- | Damage: 2d10+4 R | Penetration: 5 | Capacity: 1 | Reload: Full | Special: Blast 1/Tearing | Availability: Extremely Rare"
 ITEM.longdesc = "The working is on the tin. Fires a short range and clustered balls of razor sharp threading towards the targets that spool out when it hits the target."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

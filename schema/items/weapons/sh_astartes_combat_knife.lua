@@ -1,4 +1,4 @@
-ITEM.name = "Astartes Combat Knife"
+﻿ITEM.name = "Astartes Combat Knife"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+5 R | Penetration: 4 | Capacity: - | Reload: - | Special: Balanced | Availability: Very Rare"
 ITEM.longdesc = "The standard and reliable knife for an Astartes. Built sturdy, and the blade is almost a sword to any other non-Astartes."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

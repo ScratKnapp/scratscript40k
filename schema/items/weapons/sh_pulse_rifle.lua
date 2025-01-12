@@ -1,4 +1,4 @@
-ITEM.name = "Pulse Rifle"
+﻿ITEM.name = "Pulse Rifle"
 ITEM.description = "Class: Basic | Range: 150m | Rate of Fire: S/2/4 | Damage: 2d10+3 E | Penetration: 4 | Capacity: 36 | Reload: Full | Special: Gyro-Stabilized | Availability: Very Rare"
 ITEM.longdesc = "The standard T'au plasma casting rifle. You'll probably get into a bar fight saying this shoots better than the Lasgun."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

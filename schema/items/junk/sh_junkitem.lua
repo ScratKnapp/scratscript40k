@@ -1,4 +1,4 @@
-ITEM.name = "Name"
+﻿ITEM.name = "Name"
 ITEM.model = "modelpath"
 ITEM.description = "Shows up on tooltips when viewed on the ground or inventory."
 ITEM.longdesc = "Shows up only when viewed in inventory."

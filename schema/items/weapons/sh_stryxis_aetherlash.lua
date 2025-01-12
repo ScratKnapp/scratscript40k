@@ -1,4 +1,4 @@
-ITEM.name = "Stryxis Aetherlash"
+﻿ITEM.name = "Stryxis Aetherlash"
 ITEM.description = "Class: Melee | Range: 3m | Rate of Fire: - | Damage: 2d5 R | Penetration: 0 | Capacity: - | Reload: - | Special: Flexible/Razorsharp | Availability: Extremely Rare"
 ITEM.longdesc = "An extremely odd weapon. Creates a mist of meter long flickering, iridecent mist out from the hilt itself. Despite it seeming like just gas, hitting it on a target still causes pain."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

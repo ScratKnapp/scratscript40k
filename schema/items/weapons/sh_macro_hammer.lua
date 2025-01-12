@@ -1,4 +1,4 @@
-ITEM.name = "Macro Hammer"
+﻿ITEM.name = "Macro Hammer"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+7 E | Penetration: 10 | Capacity: - | Reload: - | Special: Powerfield | Availability: Extremely Rare"
 ITEM.longdesc = "A dark age of technology relic. These were only handed out to the Adeptus Mechanicus when they were discovered. It is unknown how they still give a heavy impact, but it was said to be nano-sized warp portals that burst on strike."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

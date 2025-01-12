@@ -1,4 +1,4 @@
-ITEM.name = "Nadueshi Twinblade"
+﻿ITEM.name = "Nadueshi Twinblade"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+6 R | Penetration: 0 | Capacity: - | Reload: - | Special: Balanced/Tearing | Availability: Rare"
 ITEM.longdesc = "An intimidating pair of blades on both ends of shaft. Large sweeping hits."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

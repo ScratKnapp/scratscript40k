@@ -1,4 +1,4 @@
-ITEM.name = "Power Maul Low Setting"
+﻿ITEM.name = "Power Maul Low Setting"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+1 E | Penetration: 2 | Capacity: - | Reload: - | Special: Shocking | Availability: -"
 ITEM.longdesc = "A large maul with the lesser energy rippling through to strike and pacify whoever steps in front. Though, it's still a heavy weight."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

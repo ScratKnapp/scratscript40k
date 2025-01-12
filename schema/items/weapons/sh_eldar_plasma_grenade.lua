@@ -1,4 +1,4 @@
-ITEM.name = "Eldar Plasma Grenade"
+﻿ITEM.name = "Eldar Plasma Grenade"
 ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: S/-/- | Damage: 1d10+6 E | Penetration: 4 | Capacity: - | Reload: - | Special: Blast 4/Shocking | Availability: Average"
 ITEM.longdesc = "Even the Xenos know how to make something disappear, in dazzling plasma."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

@@ -1,4 +1,4 @@
-ITEM.name = "Magistratum Carapace"
+﻿ITEM.name = "Magistratum Carapace"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Elite heavy carapace."
 ITEM.longdesc = "An extremely rare armor type, it offers void protection, respiratory support, and advanced optics for elite users."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 26
 ITEM.type = "Heavy"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Photo-Visor", "Void-Suit", "Respirator" }
+ITEM.specialQualities = {"Photo-Visor", "Void-Suit", "Respirator"}

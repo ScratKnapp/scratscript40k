@@ -1,2 +1,2 @@
-SKILL.name = "Intimidation"
+﻿SKILL.name = "Intimidation"
 SKILL.attribute = "manipulation"

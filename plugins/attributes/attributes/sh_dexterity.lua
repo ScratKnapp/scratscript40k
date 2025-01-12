@@ -1,2 +1,2 @@
-ATTRIBUTE.name = "Dexterity"
+﻿ATTRIBUTE.name = "Dexterity"
 ATTRIBUTE.description = "Dexterity"

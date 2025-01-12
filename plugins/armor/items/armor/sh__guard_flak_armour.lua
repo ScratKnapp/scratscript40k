@@ -1,4 +1,4 @@
-ITEM.name = "Guard Flak Armour"
+﻿ITEM.name = "Guard Flak Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Standard Guard flak armor."
 ITEM.longdesc = "Issued to the Imperial Guard, this flak armor provides reliable protection against shrapnel and light ballistic threats."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 14
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant" }
+ITEM.specialQualities = {"Blast-Resistant"}

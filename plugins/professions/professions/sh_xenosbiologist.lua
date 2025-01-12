@@ -1,2 +1,2 @@
-PROFESSION.name = "Xenos Biologist"
+﻿PROFESSION.name = "Xenos Biologist"
 PROFESSION.skill = "medicine"

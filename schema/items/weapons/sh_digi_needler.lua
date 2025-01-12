@@ -1,4 +1,4 @@
-ITEM.name = "Digi-Needler"
+﻿ITEM.name = "Digi-Needler"
 ITEM.description = "Class: Pistol | Range: 3m | Rate of Fire: S/-/- | Damage: 1d10+2 R | Penetration: 0 | Capacity: 1 | Reload: Full | Special: Reliable/Toxic | Availability: Extremely Rare"
 ITEM.longdesc = "A piece of jewlery that containing minature components to hit someone hard in an emergency. Unlike the Digi-Laser, this instead has a tiny machine to hit your target with a crystiallized agent of poison."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

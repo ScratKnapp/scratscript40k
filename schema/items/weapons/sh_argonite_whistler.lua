@@ -1,4 +1,4 @@
-ITEM.name = "Argonite Whistler"
+﻿ITEM.name = "Argonite Whistler"
 ITEM.description = "Class: Pistol | Range: 40m | Rate of Fire: S/-/- | Damage: 3d10 E | Penetration: 6 | Capacity: 8 | Reload: 2 Full | Special: Recharge | Availability: Near Unique"
 ITEM.longdesc = "A grey rod with a handgrip. It almost looks like a pipe gun, but upon firing it sends out a sonic beam tightly towards the target."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

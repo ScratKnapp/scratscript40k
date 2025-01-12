@@ -1,4 +1,4 @@
-ITEM.name = "Assault Stubber"
+﻿ITEM.name = "Assault Stubber"
 ITEM.description = "Class: Basic | Range: 100m | Rate of Fire: -/-/6 | Damage: 1d10+4 I | Penetration: 3 | Capacity: 200 | Reload: 2 Full | Special: Storm | Availability: Average"
 ITEM.longdesc = "Now this is the magdumper. Don't worry about how to get the ammo later."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

@@ -1,4 +1,4 @@
-ITEM.name = "Power Fist Mezoa"
+﻿ITEM.name = "Power Fist Mezoa"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 2d10+SBx2 E | Penetration: 9 | Capacity: - | Reload: - | Special: Powerfield/Unwieldly | Availability: Very Rare"
 ITEM.longdesc = "Like the power axe version, this pattern of power fist is entirely dedicated to having the energy explode on contact with heavy armor. Just be ready for the recoil."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

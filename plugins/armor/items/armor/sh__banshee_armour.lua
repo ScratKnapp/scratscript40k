@@ -1,4 +1,4 @@
-ITEM.name = "Banshee Armour"
+﻿ITEM.name = "Banshee Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Agile Eldar armor."
 ITEM.longdesc = "A lightweight Wraithbone armor with rune protection and void-suit integration, favored by Howling Banshees."
@@ -11,4 +11,4 @@ ITEM.race = "Eldar"
 ITEM.AP = 22
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Wraithbone", "Minor-Runes", "Void-Suit" }
+ITEM.specialQualities = {"Wraithbone", "Minor-Runes", "Void-Suit"}

@@ -1,4 +1,4 @@
-ITEM.name = "Astartes Bolter"
+﻿ITEM.name = "Astartes Bolter"
 ITEM.description = "Class: Basic | Range: 110m | Rate of Fire: S/3/- | Damage: 2d10+6 X | Penetration: 6 | Capacity: 20 | Reload: Full | Special: Accurate/Tearing/Reliable | Availability: Near Unique"
 ITEM.longdesc = "The iconic bolter. The standard issue, the old reliable. There is many like it, but this one is yours."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

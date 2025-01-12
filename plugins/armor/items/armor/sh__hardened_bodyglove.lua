@@ -1,4 +1,4 @@
-ITEM.name = "Hardened Bodyglove"
+﻿ITEM.name = "Hardened Bodyglove"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A blast-resistant bodyglove."
 ITEM.longdesc = "This light armor offers excellent protection against blasts while maintaining flexibility."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 23
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant" }
+ITEM.specialQualities = {"Blast-Resistant"}

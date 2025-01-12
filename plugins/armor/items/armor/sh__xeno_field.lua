@@ -1,4 +1,4 @@
-ITEM.name = "Xeno-Field"
+﻿ITEM.name = "Xeno-Field"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Alien light force-field armor."
 ITEM.longdesc = "This advanced light armor integrates alien technology to generate a force-field, offering excellent protection."
@@ -10,4 +10,4 @@ ITEM.humanOnly = false
 ITEM.AP = 25
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Force-Field" }
+ITEM.specialQualities = {"Force-Field"}

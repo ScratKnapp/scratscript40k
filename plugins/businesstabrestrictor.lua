@@ -1,3 +1,3 @@
-function PLUGIN:CanPlayerUseBusiness()
- return false
+﻿function PLUGIN:CanPlayerUseBusiness()
+  return false
 end

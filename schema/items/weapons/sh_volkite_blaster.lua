@@ -1,4 +1,4 @@
-ITEM.name = "Volkite Blaster"
+﻿ITEM.name = "Volkite Blaster"
 ITEM.description = "Class: Heavy | Range: 80m | Rate of Fire: S/-/3 | Damage: 2d10+6 E | Penetration: 5 | Capacity: 12 | Reload: 3 Full | Special: Mechanicus | Availability: Near Unique"
 ITEM.longdesc = "A heavy volkite based weapon. One of the few stil used by the Imperium."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

@@ -1,4 +1,4 @@
-ITEM.name = "Astartes Bolt Carbine"
+﻿ITEM.name = "Astartes Bolt Carbine"
 ITEM.description = "Class: Basic | Range: 150m | Rate of Fire: S/-/- | Damage: 2d10+3 X | Penetration: 5 | Capacity: 20 | Reload: 2 Full | Special: Accurate/Tearing/Reliable | Availability: Extremely Rare"
 ITEM.longdesc = "The bolter, modified to get a long barrel and ammunition with a higher velocity. Perfect to perform skirmishes with."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

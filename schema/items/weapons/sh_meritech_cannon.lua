@@ -1,4 +1,4 @@
-ITEM.name = "Meritech Cannon"
+﻿ITEM.name = "Meritech Cannon"
 ITEM.description = "Class: Pistol | Range: 15m | Rate of Fire: S/-/- | Damage: 3d10+5 X | Penetration: 4 | Capacity: 6 | Reload: 3 Full | Special: Reliable/Blast 2 | Availability: Unique"
 ITEM.longdesc = "A piece of the last evidence of the Meritech Clans' existance. This is a genuine Voidborn pirate weapon, that was a staple after looting it from a Dead World."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

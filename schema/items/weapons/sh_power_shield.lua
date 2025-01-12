@@ -1,4 +1,4 @@
-ITEM.name = "Power Shield"
+﻿ITEM.name = "Power Shield"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+5 E | Penetration: 0 | Capacity: - | Reload: - | Special: Defensive/Powerfield | Availability: Very Rare"
 ITEM.longdesc = "A shield with the same power generator being mounted on to deflect bullets."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

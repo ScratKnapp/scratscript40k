@@ -1,4 +1,4 @@
-ITEM.name = "Armor Weight Upgrade"
+﻿ITEM.name = "Armor Weight Upgrade"
 ITEM.description = "Lightweight armor parts that can reduce the weight of heavier armors.\n-1 to all penalties resulting from worn heavier armors"
 ITEM.category = "Upgrades"
 ITEM.model = "models/weapons/w_suitcase_passenger.mdl"
@@ -10,4 +10,3 @@ ITEM.isUpgrade = true
 ITEM.weight = 1.1
 ITEM.isArmorUpg = true
 ITEM.weightReduce = 1
-

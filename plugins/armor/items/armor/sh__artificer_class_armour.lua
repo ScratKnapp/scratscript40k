@@ -1,4 +1,4 @@
-ITEM.name = "Artificer-Class Armour"
+﻿ITEM.name = "Artificer-Class Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A nullifying Artificer-Class power armor."
 ITEM.longdesc = "Power armor designed to nullify psychic influences, with void-suit capabilities and advanced optics."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 27
 ITEM.type = "Power"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Nullifying", "Void-Suit", "Photo-Visor" }
+ITEM.specialQualities = {"Nullifying", "Void-Suit", "Photo-Visor"}

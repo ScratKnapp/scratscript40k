@@ -1,4 +1,4 @@
-ITEM.name = "Parrying Dagger"
+﻿ITEM.name = "Parrying Dagger"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d5 R | Penetration: 0 | Capacity: - | Reload: - | Special: Primitive/Defensive | Availability: Average"
 ITEM.longdesc = "A dagger crafted in mind for deflecting blades, and the idiot who can't dodge."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

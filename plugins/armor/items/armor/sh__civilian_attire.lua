@@ -1,4 +1,4 @@
-ITEM.name = "Civilian Attire"
+﻿ITEM.name = "Civilian Attire"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Basic civilian clothing."
 ITEM.longdesc = "Light and unassuming clothing for everyday wear, offering no protective features."

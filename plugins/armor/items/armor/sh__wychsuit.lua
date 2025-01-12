@@ -1,4 +1,4 @@
-ITEM.name = "Wychsuit"
+﻿ITEM.name = "Wychsuit"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Flexible armor for Wych gladiators."
 ITEM.longdesc = "A light and flexible armor providing stealth capabilities and an intimidating aura, tailored for Drukhari Wyches."
@@ -11,4 +11,4 @@ ITEM.race = "Eldar"
 ITEM.AP = 20
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Intimidating", "Stealth", "Wych" }
+ITEM.specialQualities = {"Intimidating", "Stealth", "Wych"}

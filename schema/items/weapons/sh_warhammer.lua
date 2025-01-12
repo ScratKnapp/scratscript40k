@@ -1,4 +1,4 @@
-ITEM.name = "Warhammer"
+﻿ITEM.name = "Warhammer"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+2 I | Penetration: 1 | Capacity: - | Reload: - | Special: Primitive | Availability: Scarce"
 ITEM.longdesc = "Armor or not, the impact alone will find it's mark."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

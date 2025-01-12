@@ -1,4 +1,4 @@
-ITEM.name = "Chain Axe"
+﻿ITEM.name = "Chain Axe"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+4 R | Penetration: 2 | Capacity: - | Reload: - | Special: Tearing | Availability: Average"
 ITEM.longdesc = "An axe with a small chain with blades ripping through the head."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

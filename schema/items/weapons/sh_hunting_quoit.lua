@@ -1,4 +1,4 @@
-ITEM.name = "Hunting Quoit"
+﻿ITEM.name = "Hunting Quoit"
 ITEM.description = "Class: Thrown | Range: 10m | Rate of Fire: S/-/- | Damage: 1d10 R| Penetration: 0 | Capacity: 1 | Reload: - | Special: Primitive/Bleeding | Availability: Common"
 ITEM.longdesc = "A sharp ring meant to be thrown at the enemy like a disc. Don't cut yourself."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

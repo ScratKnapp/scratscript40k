@@ -1,4 +1,4 @@
-ITEM.name = "Falchion"
+﻿ITEM.name = "Falchion"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d5+3 R | Penetration: 0 | Capacity: - | Reload: - | Special: Primitive/Balanced | Availability: Average"
 ITEM.longdesc = "A heavy blade, maybe if you add some tassels to it, you can believe you're a better dualist."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

@@ -1,4 +1,4 @@
-ITEM.name = "Fractal Blade"
+﻿ITEM.name = "Fractal Blade"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+1 R | Penetration: 6 | Capacity: - | Reload: - | Special: Powerfield/Balanced | Availability: Extremely Rare"
 ITEM.longdesc = "A blade build with a diamond-like crystal. Some say that the crystal breathes."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

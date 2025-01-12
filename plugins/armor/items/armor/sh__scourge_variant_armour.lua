@@ -1,4 +1,4 @@
-ITEM.name = "Scourge-Variant Armour"
+﻿ITEM.name = "Scourge-Variant Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Heavy respirator-equipped armor."
 ITEM.longdesc = "Heavy armor designed for the battlefield, featuring advanced respiratory systems and enhanced optics."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 15
 ITEM.type = "Heavy"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Respirator", "Photo-Visor" }
+ITEM.specialQualities = {"Respirator", "Photo-Visor"}

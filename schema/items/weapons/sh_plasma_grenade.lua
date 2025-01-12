@@ -1,4 +1,4 @@
-ITEM.name = "Plasma Grenade"
+﻿ITEM.name = "Plasma Grenade"
 ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: S/-/- | Damage: 1d10+6 E | Penetration: 6 | Capacity: - | Reload: - | Special: Blast 1 | Availability: Very Rare"
 ITEM.longdesc = "Overcharging, critical failures? Why not throw the problem, at the enemy?"
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

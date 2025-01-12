@@ -1,4 +1,4 @@
-ITEM.name = "Scatter Round"
+﻿ITEM.name = "Scatter Round"
 ITEM.description = "Class: Can only be shot with a launcher | Range: - | Rate of Fire: - | Damage: 2d10 X | Penetration: 0 | Capacity: - | Reload: - | Special: Blast 8 | Availability: Very Rare"
 ITEM.longdesc = "Shrapnel can reach, but need it to reach even more? This one."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

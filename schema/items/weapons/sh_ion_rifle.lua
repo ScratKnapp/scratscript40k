@@ -1,4 +1,4 @@
-ITEM.name = "Ion Rifle"
+﻿ITEM.name = "Ion Rifle"
 ITEM.description = "Class: Basic | Range: 110m | Rate of Fire: S/2/4 | Damage: 2d10+5 E | Penetration: 5 | Capacity: 24 | Reload: Full | Special: Overcharge (6) | Availability: Near Unique"
 ITEM.longdesc = "A condensed plasma beam to your opponent. Don't cross the streams."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

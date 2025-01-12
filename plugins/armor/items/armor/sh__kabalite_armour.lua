@@ -1,4 +1,4 @@
-ITEM.name = "Kabalite Armour"
+﻿ITEM.name = "Kabalite Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Armor worn by Kabalite warriors."
 ITEM.longdesc = "A medium armor integrating void protection, blast resistance, and advanced optics, used by Drukhari Kabalites."
@@ -11,4 +11,4 @@ ITEM.race = "Eldar"
 ITEM.AP = 22
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Void-Suit", "Blast-Resistant", "Photo-Visor", "Intimidating" }
+ITEM.specialQualities = {"Void-Suit", "Blast-Resistant", "Photo-Visor", "Intimidating"}

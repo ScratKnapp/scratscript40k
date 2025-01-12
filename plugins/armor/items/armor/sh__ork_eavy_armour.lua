@@ -1,4 +1,4 @@
-ITEM.name = "Ork Eavy Armour"
+﻿ITEM.name = "Ork Eavy Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Heavy Ork armor."
 ITEM.longdesc = "Thick slabs of metal bolted together provide solid defense against most attacks."
@@ -11,4 +11,4 @@ ITEM.race = "Ork"
 ITEM.AP = 20
 ITEM.type = "Heavy"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Skrapz", "Blast Resistant" }
+ITEM.specialQualities = {"Skrapz", "Blast Resistant"}
