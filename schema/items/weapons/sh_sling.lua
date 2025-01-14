@@ -1,4 +1,4 @@
-ITEM.name = "Sling"
+﻿ITEM.name = "Sling"
 ITEM.description = "Class: Basic | Range: 15m | Rate of Fire: S/-/- | Damage: 1d10-2 I (Can be used to shoot grenades)| Penetration: 0 | Capacity: 1 | Reload: Full | Special: Primitive/Inaccurate | Availability: Plentiful"
 ITEM.longdesc = "A linen sling. Technology always marches on, but it still can't beat throwing an object, really hard."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

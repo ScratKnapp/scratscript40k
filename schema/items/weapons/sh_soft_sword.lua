@@ -1,4 +1,4 @@
-ITEM.name = "Soft Sword"
+﻿ITEM.name = "Soft Sword"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+4 R | Penetration: 3 | Capacity: - | Reload: - | Special: Balanced | Availability: Rare"
 ITEM.longdesc = "A piece of assassin weaponry that appears as a thick cloth whenever not active, but when given an electric current, it hardens to the same as a metal blade. When it still has power anyways, bring an extra battery."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

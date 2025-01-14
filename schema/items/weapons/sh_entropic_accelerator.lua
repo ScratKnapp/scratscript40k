@@ -1,4 +1,4 @@
-ITEM.name = "Entropic Accelerator"
+﻿ITEM.name = "Entropic Accelerator"
 ITEM.description = "Class: Basic | Range: 40m | Rate of Fire: S/-/- | Damage: 3d10+4 E | Penetration: 3 | Capacity: 1 | Reload: - | Special: Recharge/Toxic | Availability: Near Unique"
 ITEM.longdesc = "This is an anomaly of a gun. There's nothing to even hint at where it came from. Wherever this hits, the target finds their metabolism shutting down or running too quickly. Not even inorganic material is safe. Some say that it's drawing on the tie between the Materium and the Immaterium."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

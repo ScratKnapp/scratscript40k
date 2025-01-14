@@ -1,4 +1,4 @@
-ITEM.name = "Phobos-Armour"
+﻿ITEM.name = "Phobos-Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Advanced Phobos power armor."
 ITEM.longdesc = "Power armor offering exceptional blast resistance, void-suit integration, and Astartes enhancements."
@@ -11,4 +11,4 @@ ITEM.race = "Astartes"
 ITEM.AP = 25
 ITEM.type = "Power"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Void-Suit", "Astartes", "Photo-Visor", "Blast-Resistant" }
+ITEM.specialQualities = {"Void-Suit", "Astartes", "Photo-Visor", "Blast-Resistant"}

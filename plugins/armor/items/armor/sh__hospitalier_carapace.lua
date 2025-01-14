@@ -1,4 +1,4 @@
-ITEM.name = "Hospitalier Carapace"
+﻿ITEM.name = "Hospitalier Carapace"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Medicae-ready armor."
 ITEM.longdesc = "Developed for the Adepta Sororitas Hospitalier, this armor integrates medicae systems with void-capable durability."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 23
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Medicae", "Void-Suit" }
+ITEM.specialQualities = {"Medicae", "Void-Suit"}

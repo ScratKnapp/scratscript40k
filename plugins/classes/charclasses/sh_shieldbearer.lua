@@ -1,1 +1,1 @@
-CHARCLASS.name = "Shieldbearer"
+﻿CHARCLASS.name = "Shieldbearer"

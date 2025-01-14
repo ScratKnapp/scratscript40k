@@ -1,2 +1,2 @@
-SKILL.name = "Beast-Mastery"
+﻿SKILL.name = "Beast-Mastery"
 SKILL.attribute = "stamina"

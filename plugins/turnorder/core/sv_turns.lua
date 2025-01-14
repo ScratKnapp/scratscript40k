@@ -1,0 +1,5 @@
+util.AddNetworkString("UpdateTurnOrderHUD")
+util.AddNetworkString("UpdateRangeFinder")
+util.AddNetworkString("PlayTurnSound")
+util.AddNetworkString("UpdatePlayerMovement")
+util.AddNetworkString("SetInitiativeVisible")

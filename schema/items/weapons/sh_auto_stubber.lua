@@ -1,4 +1,4 @@
-ITEM.name = "Auto-Stubber"
+﻿ITEM.name = "Auto-Stubber"
 ITEM.description = "Class: Basic | Range: 60m | Rate of Fire: S/3/- | Damage: 1d10+4 I | Penetration: 0 | Capacity: 20 | Reload: 2 Full | Special: Inaccurate/Tearing/Unreliable | Availability: Scarce"
 ITEM.longdesc = "You can shoot this thing at sixty meters! But why would you do that? Just run up and mag dump them."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

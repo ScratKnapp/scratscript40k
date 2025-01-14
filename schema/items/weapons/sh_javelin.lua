@@ -1,4 +1,4 @@
-ITEM.name = "Javelin"
+﻿ITEM.name = "Javelin"
 ITEM.description = "Class: Thrown | Range: 10m | Rate of Fire: S/-/- | Damage: 1d10 R| Penetration: 1 | Capacity: 1 | Reload: - | Special: Primitive | Availability: Common"
 ITEM.longdesc = "A light point with a heavy shaft. Chuck this at the enemy."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

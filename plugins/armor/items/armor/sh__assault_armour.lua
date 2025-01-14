@@ -1,4 +1,4 @@
-ITEM.name = "Assault Armour"
+﻿ITEM.name = "Assault Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Specialized Assault power armor."
 ITEM.longdesc = "Power armor built for aggressive combat, offering void-suit capabilities, Astartes enhancements, and blast resistance."
@@ -11,4 +11,4 @@ ITEM.race = "Astartes"
 ITEM.AP = 30
 ITEM.type = "Power"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Void-Suit", "Astartes", "Photo-Visor", "Blast-Resistant" }
+ITEM.specialQualities = {"Void-Suit", "Astartes", "Photo-Visor", "Blast-Resistant"}

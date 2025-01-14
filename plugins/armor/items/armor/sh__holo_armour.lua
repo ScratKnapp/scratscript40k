@@ -1,4 +1,4 @@
-ITEM.name = "Holo-Armour"
+﻿ITEM.name = "Holo-Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Advanced holographic armor."
 ITEM.longdesc = "A light armor with stealth capabilities and a clone-field to confuse enemies."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 20
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Stealth", "Clone-Field" }
+ITEM.specialQualities = {"Stealth", "Clone-Field"}

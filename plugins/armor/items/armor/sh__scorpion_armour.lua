@@ -1,4 +1,4 @@
-ITEM.name = "Scorpion Armour"
+﻿ITEM.name = "Scorpion Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Stealth-focused Eldar armor."
 ITEM.longdesc = "This Wraithbone armor offers stealth, fashion, and superior void-suit capabilities, making it ideal for covert operations."
@@ -11,4 +11,4 @@ ITEM.race = "Eldar"
 ITEM.AP = 20
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Wraithbone", "Minor-Runes", "Fashionable", "Void-Suit", "Stealth" }
+ITEM.specialQualities = {"Wraithbone", "Minor-Runes", "Fashionable", "Void-Suit", "Stealth"}

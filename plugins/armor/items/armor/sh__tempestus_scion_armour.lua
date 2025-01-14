@@ -1,4 +1,4 @@
-ITEM.name = "Tempestus Scion Armour"
+﻿ITEM.name = "Tempestus Scion Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Void-capable elite armor."
 ITEM.longdesc = "Designed for Tempestus Scions, this armor combines void protection with blast resistance and superior optics."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 23
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant", "Void-Suit", "Photo-Visor" }
+ITEM.specialQualities = {"Blast-Resistant", "Void-Suit", "Photo-Visor"}

@@ -1,4 +1,4 @@
-ITEM.name = "Spinner's Blade"
+﻿ITEM.name = "Spinner's Blade"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+5 R | Penetration: 4 | Capacity: - | Reload: - | Special: Bleeding/Balanced | Availability: Extremely Rare"
 ITEM.longdesc = "A blade with some odd curves and arcs in the edge. Despite seeing this, you can tell this was meant to cause pain."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

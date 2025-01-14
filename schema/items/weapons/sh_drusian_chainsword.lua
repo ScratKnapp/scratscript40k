@@ -1,4 +1,4 @@
-ITEM.name = "Drusian Chainsword"
+﻿ITEM.name = "Drusian Chainsword"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+3 R | Penetration: 1 | Capacity: - | Reload: - | Special: Tearing/Balanced | Availability: Average"
 ITEM.longdesc = "An even more elegent and dualist built weapon with a steady weight. Somehow in this day and age, this is classified as elegent."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

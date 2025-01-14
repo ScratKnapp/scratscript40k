@@ -1,4 +1,4 @@
-ITEM.name = "Xenohide Cloak"
+﻿ITEM.name = "Xenohide Cloak"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A cloak of xenohide material."
 ITEM.longdesc = "This lightweight cloak offers blast resistance and an intimidating silhouette, perfect for blending in hostile environments."
@@ -11,4 +11,4 @@ ITEM.race = "Various Xenos"
 ITEM.AP = 15
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Intimidating", "Blast-Resistant" }
+ITEM.specialQualities = {"Intimidating", "Blast-Resistant"}

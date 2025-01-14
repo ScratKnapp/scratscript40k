@@ -1,4 +1,4 @@
-ITEM.name = "Smart Missile System"
+﻿ITEM.name = "Smart Missile System"
 ITEM.description = "Class: Heavy | Range: 150m | Rate of Fire: S/-/6 | Damage: 2d10+4 X | Penetration: 4 | Capacity: 48 | Reload: 2 Full | Special: - | Availability: Very Rare"
 ITEM.longdesc = "A brick of a missile pod that carries a payload of small, precise missiles. Good thing they won't backfire."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

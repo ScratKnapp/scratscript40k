@@ -1,4 +1,4 @@
-ITEM.name = "Rune Armour"
+﻿ITEM.name = "Rune Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Unique Eldar armor."
 ITEM.longdesc = "A unique armor made from Wraithbone, blending Asuryani runes, void protection, and an elegant design."
@@ -11,4 +11,4 @@ ITEM.race = "Eldar"
 ITEM.AP = 22
 ITEM.type = "Unique"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Wraithbone", "Fashionable", "Asuryani-Runes", "Void-Suit" }
+ITEM.specialQualities = {"Wraithbone", "Fashionable", "Asuryani-Runes", "Void-Suit"}

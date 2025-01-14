@@ -1,2 +1,2 @@
-CHARCLASS.name = "Vespid Flywing"
+﻿CHARCLASS.name = "Vespid Flywing"
 CHARCLASS.race = "Vespid"

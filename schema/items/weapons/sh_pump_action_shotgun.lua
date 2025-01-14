@@ -1,4 +1,4 @@
-ITEM.name = "Pump-Action Shotgun"
+﻿ITEM.name = "Pump-Action Shotgun"
 ITEM.description = "Class: Basic | Range: 30m | Rate of Fire: S/-/- | Damage: 1d10+4 I | Penetration: 0 | Capacity: 8 | Reload: 2 Full | Special: Scatter | Availability: Average"
 ITEM.longdesc = "Dump buckshot after buckshot into the enemy! What's better than a shotgun?"
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

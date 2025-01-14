@@ -1,4 +1,4 @@
-ITEM.name = "Heavy Rail Rifle"
+﻿ITEM.name = "Heavy Rail Rifle"
 ITEM.description = "Class: Heavy | Range: 300m | Rate of Fire: S/-/- | Damage: 4d10+8 I | Penetration: 12 | Capacity: 12 | Reload: 2 Full | Special: Felling/Proven (3)/Tearing | Availability: Near Unique"
 ITEM.longdesc = "A massive rifle dedicated entirely to throwing a sabot at speeds unreachable by traditional means."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

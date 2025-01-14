@@ -1,4 +1,4 @@
-ITEM.name = "PDF Armour"
+﻿ITEM.name = "PDF Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A standard protective suit."
 ITEM.longdesc = "Standard issue armor used by Planetary Defense Forces, offering moderate protection against explosive impacts."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 13
 ITEM.type = "Heavy"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant" }
+ITEM.specialQualities = {"Blast-Resistant"}

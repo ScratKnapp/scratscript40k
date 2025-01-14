@@ -1,4 +1,4 @@
-ITEM.name = "Lucius-IX Armour"
+﻿ITEM.name = "Lucius-IX Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A Lucius-IX power armor."
 ITEM.longdesc = "Power armor that enhances psychic abilities, equipped with void-suit capabilities and advanced optics."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 25
 ITEM.type = "Power"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Psi-Enhancing", "Void-Suit", "Photo-Visor" }
+ITEM.specialQualities = {"Psi-Enhancing", "Void-Suit", "Photo-Visor"}

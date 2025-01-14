@@ -1,4 +1,4 @@
-ITEM.name = "AB-Class Armour"
+﻿ITEM.name = "AB-Class Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Advanced medium armor for Abhumans."
 ITEM.longdesc = "Medium armor with enhanced blast resistance and advanced optics."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 24
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant", "Photo-Visor" }
+ITEM.specialQualities = {"Blast-Resistant", "Photo-Visor"}

@@ -1,2 +1,2 @@
-SKILL.name = "Performance"
+﻿SKILL.name = "Performance"
 SKILL.attribute = "charisma"

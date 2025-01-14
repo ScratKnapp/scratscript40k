@@ -1,4 +1,4 @@
-ITEM.name = "Disintegrator Cannon"
+﻿ITEM.name = "Disintegrator Cannon"
 ITEM.description = "Class: Heavy | Range: 140m | Rate of Fire: -/-/5 | Damage: 1d10+12 E | Penetration: 12 | Capacity: 30 | Reload: 4 Full | Special: - | Availability: Very Rare"
 ITEM.longdesc = "The Disintegrator Cannon is a heavy weapon, unleashing devastating energy beams to obliterate targets."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

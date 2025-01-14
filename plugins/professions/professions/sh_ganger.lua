@@ -1,2 +1,2 @@
-PROFESSION.name = "Ganger"
+﻿PROFESSION.name = "Ganger"
 PROFESSION.skill = "intimidation"

@@ -1,4 +1,4 @@
-ITEM.name = "Fusion Blaster"
+﻿ITEM.name = "Fusion Blaster"
 ITEM.description = "Class: Basic | Range: 20m | Rate of Fire: S/-/- | Damage: 2d10+8 E | Penetration: 12 | Capacity: 8 | Reload: 2 Full | Special: Melta | Availability: Very Rare"
 ITEM.longdesc = "A close range, volatile plasma blaster. Make anyone who gets close, reconsider."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

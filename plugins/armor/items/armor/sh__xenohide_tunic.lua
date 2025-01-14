@@ -1,4 +1,4 @@
-ITEM.name = "Xenohide Tunic"
+﻿ITEM.name = "Xenohide Tunic"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A tunic made of durable xenohide."
 ITEM.longdesc = "A light armor crafted from exotic xenohide, designed for stealth and creating an intimidating presence."
@@ -11,4 +11,4 @@ ITEM.race = "Various Xenos"
 ITEM.AP = 18
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Intimidating", "Stealth" }
+ITEM.specialQualities = {"Intimidating", "Stealth"}

@@ -1,4 +1,4 @@
-ITEM.name = "Ork Flak Armour"
+﻿ITEM.name = "Ork Flak Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Crude Ork flak armor."
 ITEM.longdesc = "This flak armor is built from scavenged materials, offering decent protection for Orks."
@@ -11,4 +11,4 @@ ITEM.race = "Ork"
 ITEM.AP = 14
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Skrapz" }
+ITEM.specialQualities = {"Skrapz"}

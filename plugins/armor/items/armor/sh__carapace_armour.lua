@@ -1,4 +1,4 @@
-ITEM.name = "Carapace Armour"
+﻿ITEM.name = "Carapace Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Standard carapace armor."
 ITEM.longdesc = "A durable medium armor equipped with a respirator, providing protection against blasts and hazardous environments."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 16
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant", "Respirator" }
+ITEM.specialQualities = {"Blast-Resistant", "Respirator"}

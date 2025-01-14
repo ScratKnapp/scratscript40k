@@ -1,4 +1,4 @@
-ITEM.name = "Astartes Chainsword"
+﻿ITEM.name = "Astartes Chainsword"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 2d10+5 R | Penetration: 4 | Capacity: - | Reload: - | Special: Balanced/Tearing/Razorsharp | Availability: Very Rare"
 ITEM.longdesc = "The classic chainsword, but built with the Imperium's finest manufactoriums. Perfect for dueling, utility, or just tearing through hordes of threats."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

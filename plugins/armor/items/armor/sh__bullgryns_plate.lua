@@ -1,4 +1,4 @@
-ITEM.name = "Bullgryn's Plate"
+﻿ITEM.name = "Bullgryn's Plate"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Imposing heavy plate armor."
 ITEM.longdesc = "A massive heavy plate offering exceptional blast resistance and an intimidating presence."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 30
 ITEM.type = "Heavy"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant", "Intimidating" }
+ITEM.specialQualities = {"Blast-Resistant", "Intimidating"}

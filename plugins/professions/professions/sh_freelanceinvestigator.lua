@@ -1,2 +1,2 @@
-PROFESSION.name = "Freelance Investigator"
+﻿PROFESSION.name = "Freelance Investigator"
 PROFESSION.skill = "insight"

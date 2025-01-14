@@ -1,18 +1,15 @@
-local PLUGIN = PLUGIN
-
+﻿local PLUGIN = PLUGIN
 util.AddNetworkString("openCinematicSplashMenu")
 util.AddNetworkString("triggerCinematicSplashMenu")
-
 net.Receive("triggerCinematicSplashMenu", function(_, client)
-    if not client:IsAdmin() then return end
-
-    net.Start("triggerCinematicSplashMenu")
-        net.WriteString(net.ReadString()) -- text
-        net.WriteString(net.ReadString()) --bigtext
-        net.WriteString(net.ReadString()) -- Musicfile
-        net.WriteUInt(net.ReadUInt(6), 6) --duration
-        net.WriteBool(net.ReadBool()) -- blackBars
-        net.WriteBool(net.ReadBool()) -- music
-        net.WriteColor(net.ReadColor()) -- color
-    net.Broadcast()
+  if not client:IsAdmin() then return end
+  net.Start("triggerCinematicSplashMenu")
+  net.WriteString(net.ReadString())
+  net.WriteString(net.ReadString())
+  net.WriteString(net.ReadString())
+  net.WriteUInt(net.ReadUInt(6), 6)
+  net.WriteBool(net.ReadBool())
+  net.WriteBool(net.ReadBool())
+  net.WriteColor(net.ReadColor())
+  net.Broadcast()
 end)

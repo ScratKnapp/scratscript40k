@@ -1,4 +1,4 @@
-ITEM.name = "Suppression Shield"
+﻿ITEM.name = "Suppression Shield"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10 E | Penetration: 0 | Capacity: - | Reload: - | Special: Defensive/Shocking/Recharge | Availability: Rare"
 ITEM.longdesc = "A metal shield with an energy field rippling through the front to deflect projectiles."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

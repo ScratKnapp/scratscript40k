@@ -1,4 +1,4 @@
-ITEM.name = "Flintlock Pistol"
+﻿ITEM.name = "Flintlock Pistol"
 ITEM.description = "Class: Pistol | Range: 15m | Rate of Fire: S/-/- | Damage: 1d10+2 I| Penetration: 0 | Capacity: 1 | Reload: 3 Full | Special: Primitive/Unreliable/Inaccurate | Availability: Common"
 ITEM.longdesc = "A blackpowder pistol. Better start carrying six of these."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

@@ -1,2 +1,2 @@
-CHARCLASS.name = "Kroot Hunter"
+﻿CHARCLASS.name = "Kroot Hunter"
 CHARCLASS.race = "Kroot"

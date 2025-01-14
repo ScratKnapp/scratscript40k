@@ -1,4 +1,4 @@
-ITEM.name = "Kroot-Hide"
+﻿ITEM.name = "Kroot-Hide"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Stealthy Kroot-hide armor."
 ITEM.longdesc = "Crafted from the hides of Kroot, this light armor is ideal for stealth and infiltration missions."
@@ -10,4 +10,4 @@ ITEM.humanOnly = false
 ITEM.AP = 20
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Stealth" }
+ITEM.specialQualities = {"Stealth"}

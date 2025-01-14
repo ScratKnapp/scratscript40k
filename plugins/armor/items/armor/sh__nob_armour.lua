@@ -1,4 +1,4 @@
-ITEM.name = "Nob Armour"
+﻿ITEM.name = "Nob Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Thick Nob armour."
 ITEM.longdesc = "Heavy-duty armour designed for Ork Nobz, offering excellent protection and durability."
@@ -11,4 +11,4 @@ ITEM.race = "Ork"
 ITEM.AP = 20
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Skrapz", "Blast Resistant" }
+ITEM.specialQualities = {"Skrapz", "Blast Resistant"}

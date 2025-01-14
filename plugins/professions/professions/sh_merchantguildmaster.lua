@@ -1,2 +1,2 @@
-PROFESSION.name = "Merchant Guildmaster"
+﻿PROFESSION.name = "Merchant Guildmaster"
 PROFESSION.skill = "stewardship"

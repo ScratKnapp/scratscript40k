@@ -1,4 +1,4 @@
-ITEM.name = "Blind"
+﻿ITEM.name = "Blind"
 ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: S/-/- | Damage: - | Penetration: - | Capacity: - | Reload: - | Special: Smoke | Availability: Rare"
 ITEM.longdesc = "Is someone a little, too accurate? Fix it, with this."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

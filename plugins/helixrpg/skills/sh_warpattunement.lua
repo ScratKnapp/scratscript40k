@@ -1,2 +1,2 @@
-SKILL.name = "Warp Attunement"
+﻿SKILL.name = "Warp Attunement"
 SKILL.attribute = "intelligence"

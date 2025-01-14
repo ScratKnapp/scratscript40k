@@ -1,4 +1,4 @@
-ITEM.name = "Aspect Armour"
+﻿ITEM.name = "Aspect Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Medium Eldar armor."
 ITEM.longdesc = "Crafted from Wraithbone and inscribed with minor runes, this armor integrates void-suit capabilities and advanced optics."
@@ -11,4 +11,4 @@ ITEM.race = "Eldar"
 ITEM.AP = 20
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Wraithbone", "Minor-Runes", "Void-Suit", "Photo-Visor" }
+ITEM.specialQualities = {"Wraithbone", "Minor-Runes", "Void-Suit", "Photo-Visor"}

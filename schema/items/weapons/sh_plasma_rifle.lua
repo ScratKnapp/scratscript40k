@@ -1,4 +1,4 @@
-ITEM.name = "Plasma Rifle"
+﻿ITEM.name = "Plasma Rifle"
 ITEM.description = "Class: Heavy | Range: 90m | Rate of Fire: S/2/4 | Damage: 2d10+4 E | Penetration: 10 | Capacity: 16 | Reload: Full | Special: - | Availability: Extremely Rare"
 ITEM.longdesc = "A heavy brick of a plasma rifle. Unlike the Pulse, this is less of a precise shot. More of a broad target remover."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

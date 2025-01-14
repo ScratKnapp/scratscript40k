@@ -1,4 +1,4 @@
-ITEM.name = "Power Axe Mezoa"
+﻿ITEM.name = "Power Axe Mezoa"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10+7 E | Penetration: 7 | Capacity: - | Reload: - | Special: Powerfield/Unbalanced | Availability: Very Rare"
 ITEM.longdesc = "A large axe with energy running through it that'll explode when it hits in contact with armor. Probably really good at chopping trees too."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

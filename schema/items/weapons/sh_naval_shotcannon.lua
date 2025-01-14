@@ -1,4 +1,4 @@
-ITEM.name = "Naval Shotcannon"
+﻿ITEM.name = "Naval Shotcannon"
 ITEM.description = "Class: Heavy | Range: 40m | Rate of Fire: S/3/- | Damage: 2d10+4 I | Penetration: 0 | Capacity: 24 | Reload: 2 Full | Special: Scatter/Unreliable | Availability: Scarce"
 ITEM.longdesc = "Point this down a tight hallway of a ship, suddenly the boarders realize they should reconsider hteir life choices."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

@@ -1,4 +1,4 @@
-ITEM.name = "Ork Squighide"
+﻿ITEM.name = "Ork Squighide"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Armor of Squighide."
 ITEM.longdesc = "Crafted from durable Squighide, this armor offers surprising resilience for its weight."
@@ -11,4 +11,4 @@ ITEM.race = "Ork"
 ITEM.AP = 15
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Skrapz" }
+ITEM.specialQualities = {"Skrapz"}

@@ -1,4 +1,4 @@
-ITEM.name = "Heavy-Power Armour"
+﻿ITEM.name = "Heavy-Power Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A heavily reinforced power armor."
 ITEM.longdesc = "Heavy power armor offering exceptional blast resistance, void-suit capabilities, and advanced optics."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 30
 ITEM.type = "Power"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant", "Void-Suit", "Photo-Visor" }
+ITEM.specialQualities = {"Blast-Resistant", "Void-Suit", "Photo-Visor"}

@@ -1,4 +1,4 @@
-ITEM.name = "Veteran Armour"
+﻿ITEM.name = "Veteran Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Power armor for Astartes veterans."
 ITEM.longdesc = "Heavy power armor designed for veteran Space Marines, featuring void-suit integration, Astartes enhancements, and blast resistance."
@@ -11,4 +11,4 @@ ITEM.race = "Astartes"
 ITEM.AP = 32
 ITEM.type = "Power"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Void-Suit", "Astartes", "Photo-Visor", "Blast-Resistant" }
+ITEM.specialQualities = {"Void-Suit", "Astartes", "Photo-Visor", "Blast-Resistant"}

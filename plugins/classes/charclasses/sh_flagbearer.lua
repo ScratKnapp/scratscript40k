@@ -1,1 +1,1 @@
-CHARCLASS.name = "Flagbearer"
+﻿CHARCLASS.name = "Flagbearer"

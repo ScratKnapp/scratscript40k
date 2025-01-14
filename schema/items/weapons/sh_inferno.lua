@@ -1,4 +1,4 @@
-ITEM.name = "Inferno"
+﻿ITEM.name = "Inferno"
 ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: S/-/- | Damage: 1d10+3 E | Penetration: 6 | Capacity: - | Reload: - | Special: Blast 2/Flame | Availability: Rare"
 ITEM.longdesc = "The arsonist's favorite flavor of carnage."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

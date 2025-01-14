@@ -1,4 +1,4 @@
-ITEM.name = "Staff"
+﻿ITEM.name = "Staff"
 ITEM.description = "Class: Melee | Range: - | Rate of Fire: - | Damage: 1d10 I | Penetration: 0 | Capacity: - | Reload: - | Special: Primitive/Balanced | Availability: Plentiful"
 ITEM.longdesc = "A piece of hardwood whittled into a staff. Nothing's better than a plain old stick."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

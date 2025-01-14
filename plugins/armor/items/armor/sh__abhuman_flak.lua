@@ -1,4 +1,4 @@
-ITEM.name = "Abhuman-Flak"
+﻿ITEM.name = "Abhuman-Flak"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Standard flak armor for Abhumans."
 ITEM.longdesc = "Medium flak armor offering solid blast resistance, suitable for a variety of abhuman soldiers."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 16
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant" }
+ITEM.specialQualities = {"Blast-Resistant"}

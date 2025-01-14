@@ -1,4 +1,4 @@
-ITEM.name = "Shadow Field"
+﻿ITEM.name = "Shadow Field"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A unique field of shadows."
 ITEM.longdesc = "A near-unique armor generating a shadow field for unparalleled defense and elusiveness."
@@ -11,4 +11,4 @@ ITEM.race = "Eldar"
 ITEM.AP = 28
 ITEM.type = "Unique"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Shadow-Field" }
+ITEM.specialQualities = {"Shadow-Field"}

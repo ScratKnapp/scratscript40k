@@ -1,4 +1,4 @@
-ITEM.name = "Scout Sniper Rifle"
+﻿ITEM.name = "Scout Sniper Rifle"
 ITEM.description = "Class: Basic | Range: 180m | Rate of Fire: S/-/- | Damage: 2d10+6 X | Penetration: 6 | Capacity: 4 | Reload: 2 Full | Special: Accurate/Tearing/Reliable | Availability: Very Rare"
 ITEM.longdesc = "The bolter, modified to get a longer barrel and a beefier round. A telescopic sight to assist in taking the heads off valuable targets."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

@@ -1,1 +1,1 @@
-CHARCLASS.name = "Astartes Chapter"
+﻿CHARCLASS.name = "Astartes Chapter"

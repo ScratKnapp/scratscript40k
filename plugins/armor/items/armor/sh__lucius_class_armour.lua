@@ -1,4 +1,4 @@
-ITEM.name = "Lucius-Class Armour"
+﻿ITEM.name = "Lucius-Class Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A stealthy Lucius-Class power armor."
 ITEM.longdesc = "Power armor equipped with stealth features, a void-suit, and advanced optics for covert operations."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 25
 ITEM.type = "Power"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Stealth", "Void-Suit", "Photo-Visor" }
+ITEM.specialQualities = {"Stealth", "Void-Suit", "Photo-Visor"}

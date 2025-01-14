@@ -1,2 +1,2 @@
-CHARCLASS.name = "Drukhari Mercenary"
+﻿CHARCLASS.name = "Drukhari Mercenary"
 CHARCLASS.race = "Eldar"

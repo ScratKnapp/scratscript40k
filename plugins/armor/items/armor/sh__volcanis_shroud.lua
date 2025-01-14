@@ -1,4 +1,4 @@
-ITEM.name = "Volcanis Shroud"
+﻿ITEM.name = "Volcanis Shroud"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A shroud resistant to flames."
 ITEM.longdesc = "Light armor that is both flame-resistant and fashionable, offering protection in high-temperature environments."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 14
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Flame-Resistant", "Fashionable" }
+ITEM.specialQualities = {"Flame-Resistant", "Fashionable"}

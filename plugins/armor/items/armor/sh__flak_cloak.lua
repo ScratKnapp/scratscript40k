@@ -1,4 +1,4 @@
-ITEM.name = "Flak Cloak"
+﻿ITEM.name = "Flak Cloak"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "A stylish and functional cloak."
 ITEM.longdesc = "A fashionable cloak reinforced with flak plating, offering decent protection while maintaining style."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 12
 ITEM.type = "Medium"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant", "Fashionable" }
+ITEM.specialQualities = {"Blast-Resistant", "Fashionable"}

@@ -1,4 +1,4 @@
-ITEM.name = "Gravis Armour"
+﻿ITEM.name = "Gravis Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Gravis-class heavy power armor."
 ITEM.longdesc = "The heaviest power armor available, featuring void-suit integration, Astartes enhancements, and unmatched blast resistance."
@@ -11,4 +11,4 @@ ITEM.race = "Astartes"
 ITEM.AP = 36
 ITEM.type = "Power"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Void-Suit", "Astartes", "Photo-Visor", "Blast-Resistant" }
+ITEM.specialQualities = {"Void-Suit", "Astartes", "Photo-Visor", "Blast-Resistant"}

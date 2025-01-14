@@ -1,1 +1,1 @@
-CHARCLASS.name = "Xeno Supporter"
+﻿CHARCLASS.name = "Xeno Supporter"

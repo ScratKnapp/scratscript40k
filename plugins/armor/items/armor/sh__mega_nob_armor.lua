@@ -1,4 +1,4 @@
-ITEM.name = "Mega Nob Armour"
+﻿ITEM.name = "Mega Nob Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Massive Mega Nob armour."
 ITEM.longdesc = "A mechanical suit of unparalleled strength and defense, used by the mightiest Ork Nobz."
@@ -11,4 +11,4 @@ ITEM.race = "Ork"
 ITEM.AP = 30
 ITEM.type = "Power"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Skrapz", "Intimidating", "Blast Resistant" }
+ITEM.specialQualities = {"Skrapz", "Intimidating", "Blast Resistant"}

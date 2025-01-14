@@ -1,4 +1,4 @@
-ITEM.name = "Light Carapace Armour"
+﻿ITEM.name = "Light Carapace Armour"
 ITEM.model = "models/props_c17/BriefCase001a.mdl"
 ITEM.description = "Lightweight carapace armor."
 ITEM.longdesc = "Designed for mobility, this armor provides reliable blast protection and respiratory support."
@@ -10,4 +10,4 @@ ITEM.humanOnly = true
 ITEM.AP = 12
 ITEM.type = "Light"
 ITEM.quality = "Normal"
-ITEM.specialQualities = { "Blast-Resistant", "Respirator" }
+ITEM.specialQualities = {"Blast-Resistant", "Respirator"}

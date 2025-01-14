@@ -1,4 +1,4 @@
-ITEM.name = "Needle Pistol"
+﻿ITEM.name = "Needle Pistol"
 ITEM.description = "Class: Pistol | Range: 35m | Rate of Fire: S/-/- | Damage: 1d10+2 R | Penetration: 0 | Capacity: 6 | Reload: Full | Special: Accurate/Toxic | Availability: Very Rare"
 ITEM.longdesc = "A specialized pistol that fires the toxic agent in a crystallized form. Doesn't cause any damage to the target excessively, except internally."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

@@ -1,4 +1,4 @@
-ITEM.name = "Astartes Powerlance"
+﻿ITEM.name = "Astartes Powerlance"
 ITEM.description = "Class: Melee | Range: 10m | Rate of Fire: - | Damage: 2d10+10 E | Penetration: 8 | Capacity: - | Reload: - | Special: Unwieldly/Crippling/Powerfield | Availability: Near Unique"
 ITEM.longdesc = "A massive lance with the end of the blade powered by a power field. This is commonly used by the White Scars, riding them into battle and skewering their foes."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

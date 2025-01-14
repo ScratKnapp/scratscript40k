@@ -1,4 +1,4 @@
-ITEM.name = "Krak"
+﻿ITEM.name = "Krak"
 ITEM.description = "Class: Thrown | Range: SBx3 | Rate of Fire: S/-/- | Damage: 2d10+4 X | Penetration: 6 | Capacity: - | Reload: - | Special: Blast 1 | Availability: Rare"
 ITEM.longdesc = "The infamous Krak Grenade. Armor is nothing."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"

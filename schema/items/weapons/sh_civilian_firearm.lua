@@ -1,4 +1,4 @@
-ITEM.name = "Civilian Firearm"
+﻿ITEM.name = "Civilian Firearm"
 ITEM.description = "Class: Basic | Range: 60m | Rate of Fire: S/2/- | Damage: 1d10+3 I | Penetration: 0 | Capacity: 6 | Reload: Full | Special: - | Availability: Common"
 ITEM.longdesc = "A civilian firearm? Right, explain this to the Inquisitor when they're wondering why you're armed."
 ITEM.model = "models/dizcordum/wh/dot_props/caseb_c.mdl"
