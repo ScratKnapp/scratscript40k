@@ -3,13 +3,13 @@ PLUGIN.name = "Stat Rolling"
 PLUGIN.author = "Scrat Knapp"
 PLUGIN.description = "cheese.wav"
 ix.chat.Register("rollstat", {
-  format = "** %s rolled for %s Difficulty %s with %sd10 %s: %s \nAmmo Used: %s \nSuccess: %s\nFail: %s",
+  format = "** %s rolled for %s Difficulty %s with %sd10 %s: %s\nWeapon Used: %s \nAmmo Used: %s \nSuccess: %s\nFail: %s",
   color = Color(155, 111, 176),
   CanHear = ix.config.Get("chatRange", 280),
   deadCanChat = true,
   OnChatAdd = function(self, speaker, text, bAnonymous, data)
     local translated = L2(self.uniqueID .. "Format", speaker:Name(), text)
-    chat.AddText(self.color, translated and "** " .. translated or string.format(self.format, speaker:Name(), data.attname, data.difficulty, data.dicepool, data.modifierstring, data.rollstring, data.ammotype, data.pass, data.fail))
+    chat.AddText(self.color, translated and "** " .. translated or string.format(self.format, speaker:Name(), data.attname, data.difficulty, data.dicepool, data.modifierstring, data.rollstring, data.weaponname, data.ammotype, data.pass, data.fail))
   end
 })
 
@@ -134,6 +134,7 @@ ix.command.Add("fire", {
     local weapon = client:GetActiveWeaponItem()
     if not weapon then return "You need to equip a ranged weapon." end
     local ammotype = char:DeductAmmo(weapon:GetData("AmmoType", "normal"), shots)
+    local weaponname = weapon:GetName()
     if not ammotype then return "Not enough ammo to fire this amount of shots!" end
     local rollsplit = {}
     if shots == 1 then
@@ -172,7 +173,8 @@ ix.command.Add("fire", {
         difficulty = difficulty,
         modifier = modifier,
         modifierstring = modifierstring,
-        ammotype = ammotype
+        ammotype = ammotype,
+        weaponname = weaponname
       })
 
       ix.log.Add(client, "rollStat", attname, group, pass, fail, rollstring, difficulty)
@@ -203,6 +205,7 @@ ix.command.Add("autofire", {
     dicepool = dicepool + skillboost + attboost + raceboost + injurydebuff + shots
     if modifier then dicepool = dicepool + modifier end
     local ammotype = char:DeductAmmo(weapon:GetData("AmmoType", "normal"), shots)
+    local weaponname = weapon:GetName()
     if not ammotype then return "Not enough ammo to fire this amount of shots!" end
     local rollsplit = {dicepool}
     for _, group in ipairs(rollsplit) do
@@ -235,13 +238,88 @@ ix.command.Add("autofire", {
         difficulty = difficulty,
         modifier = modifier,
         modifierstring = modifierstring,
-        ammotype = ammotype
+        ammotype = ammotype,
+        weaponname = weaponname
       })
 
       ix.log.Add(client, "rollStat", attname, group, pass, fail, rollstring, difficulty)
     end
   end
 })
+
+ix.command.Add("meleeattack", {
+  description = "Roll a melee weapons check based on your Attribute's dice pool, split between however many swings as you wish. Optional modifier.",
+  arguments = {ix.type.number, ix.type.number, bit.bor(ix.type.number, ix.type.optional)},
+  OnRun = function(self, client, swings, difficulty, modifier)
+    if difficulty < 0 then return "Difficulty cannot be negative." end
+    if swings <= 0 then return "Cannot have 0 or less swings." end
+
+    local swingsallowed = math.floor((char:GetSkill("melee") + char:GetAttribute("strength")) / 2)
+
+    if swings > swingsallowed then return "Your current Strength and Melee skill only allows for up to " .. swingsallowed .. " swings." end 
+    local char = client:GetCharacter()
+    local attname = "Melee Attack"
+    local dicepool = 0
+    local skillboost = char:GetSkill("melee")
+    local attboost = char:GetAttribute("strength")
+    local raceboost = char:GetRaceBonus("melee")
+    local professionboost = 0
+    local injurydebuff = char:GetHealthDebuff()
+    if char:GetProfessionSkill() == "melee" then professionboost = 1 end
+    dicepool = dicepool + skillboost + attboost + raceboost + injurydebuff
+    if modifier then dicepool = dicepool + modifier end
+    if swings > dicepool then return "Don't have enough die to roll " .. swings .. " swings." end
+    local weapon = client:GetActiveWeaponItem()
+    if not weapon then return "You need to equip a melee weapon." end
+
+
+    local weaponname = weapon:GetName()
+
+    local rollsplit = {}
+    if shots == 1 then
+      table.insert(rollsplit, dicepool)
+    else
+      rollsplit = splitdice(dicepool, swings)
+    end
+
+    for _, group in ipairs(rollsplit) do
+      local pass = 0
+      local fail = 0
+      local rollstring = ""
+      local modifierstring = ""
+      for i = group, 1, -1 do
+        local diceroll = math.random(1, 10)
+        if diceroll == 10 then
+          pass = pass + 2
+        elseif diceroll == 1 then
+          pass = pass - 1
+        elseif diceroll >= difficulty then
+          pass = pass + 1
+        else
+          fail = fail + 1
+        end
+
+        rollstring = rollstring .. diceroll .. ", "
+      end
+
+      if modifier then modifierstring = "(Total Modifier of " .. modifier .. ")" end
+      ix.chat.Send(client, "rollStat", tostring(group), nil, nil, {
+        attname = attname,
+        dicepool = group,
+        pass = pass,
+        fail = fail,
+        rollstring = rollstring,
+        difficulty = difficulty,
+        modifier = modifier,
+        modifierstring = modifierstring,
+        weaponname = weaponname
+      })
+
+      ix.log.Add(client, "rollStat", attname, group, pass, fail, rollstring, difficulty)
+    end
+  end
+})
+
 
 ix.command.Add("Rollstatmodifier", {
   description = "Roll a number out of the given maximum and add the given amount to it.",

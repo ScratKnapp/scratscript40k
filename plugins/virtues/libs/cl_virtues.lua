@@ -24,3 +24,19 @@ ix.command.Add("CharSetVirtuePoints", {
     arguments = {ix.type.character, ix.type.number,},
     OnRun = function(self, client, target, value) end
 })
+
+ix.command.Add("CharGiveWP", {
+    description = "Give Willpower to a character, up to their maximum.",
+    privilege = "Manage Character Attributes",
+    adminOnly = true,
+    arguments = {ix.type.character, ix.type.number,},
+    OnRun = function(self, client, target, amount) end
+})
+
+ix.command.Add("CharTakeWP", {
+    description = "Take Willpower from a character.",
+    privilege = "Manage Character Attributes",
+    adminOnly = true,
+    arguments = {ix.type.character, ix.type.number,},
+    OnRun = function(self, client, target, amount) end
+})

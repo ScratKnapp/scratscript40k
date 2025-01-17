@@ -57,15 +57,35 @@ else
   end)
 end
 
-ix.command.Add("ArmorTest", {
-  description = "Assign a profession to a character. Wipes their old one.",
+ix.command.Add("CharAblateArmor", {
+  description = "Reduce character's equipped armor by given amount.",
+  arguments = {ix.type.character, ix.type.number},
   adminOnly = true,
-  OnRun = function(self, client)
-    char = client:GetCharacter()
-    if char:IsHuman() then
-      return "True"
-    else
-      return "False"
-    end
+  OnRun = function(self, client, target, amount)
+
+	if amount < 1 then return "Cannot ablate armor by 0 or less." end 
+	if not target:GetEquippedArmor() then return "Target has no armor equipped." end 
+
+	local armor = target:GetEquippedArmor()
+	target:AblateArmor(amount)
+	return "Ablated " .. armor:GetName() .. " worn by " .. target:GetName() .. " by " .. amount .. " points."
+
   end
 })
+
+ix.command.Add("CharRepairArmor", {
+	description = "Repair character's equipped armor by given amount.",
+	arguments = {ix.type.character, ix.type.number},
+	adminOnly = true,
+	OnRun = function(self, client, target, amount)
+  
+	  if amount < 1 then return "Cannot repair armor by 0 or less." end 
+	  if not target:GetEquippedArmor() then return "Target has no armor equipped." end 
+  
+	  local armor = target:GetEquippedArmor()
+	  target:RepairArmor(amount)
+	  return "Repaired " .. armor:GetName() .. " worn by " .. target:GetName() .. " by " .. amount .. " points."
+	  
+	end
+  })
+  

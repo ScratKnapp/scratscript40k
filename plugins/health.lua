@@ -98,6 +98,40 @@ ix.command.Add("CharTakeHP", {
   end
 })
 
+ix.command.Add("Damage", {
+    arguments = {ix.type.character, ix.type.number, bit.bor(ix.type.number, ix.type.optional), bit.bor(ix.type.number, ix.type.optional)},
+    adminOnly = true,
+    description = "Take HP from target.",
+    OnRun = function(self, client, target, damage, pierce, ablation)
+
+      local player = target:GetPlayer()
+      if damage < 0 then return "Cannot deal negative damage." end
+      if pierce and pierce < 0 then return "Cannot have a negative pierce property." end 
+      if ablation and ablation < 0 then return "Cannot have a negative ablation property." end 
+
+      if not pierce then pierce = 0 end
+      if not ablation then ablation = 1 end 
+
+      local health = target:GetHP()
+      local DR = target:GetDR() - pierce 
+
+      if damage > DR then
+        local damagetaken = damage - DR
+        target:DamageHP(damagetaken)
+       if target:GetEquippedArmor() then  target:AblateArmor(ablation) end 
+        player:Notify("You take " .. damage .. " incoming damage!")
+        if pierce > 0 then player:Notify("It pierces " .. pierce .. " points of armor!") end
+        player:Notify("Your HP is reduced by " .. damagetaken .. " and your armor is ablated by " .. ablation .. " points.")
+        client:Notify(target:GetName() .. " has taken " .. damagetaken .. " damage and their armor is ablated by " .. ablation .. " points!")
+      else
+        player:Notify("You take " .. damage .. " incoming damage!")
+        if pierce > 0 then player:Notify("It pierces " .. pierce .. " points of armor!") end
+        player:Notify("Your armor blocks the attack!")
+        client:Notify(target:GetName() .. " blocks the attack!")
+      end 
+    end
+  })
+
 ix.command.Add("rest", {
   description = "Heal yourself based on your Stamina and recover your Willpower. Can be used once every 20 hours.",
   OnRun = function(self, client)

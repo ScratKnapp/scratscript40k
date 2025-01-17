@@ -48,6 +48,31 @@ ix.command.Add("CharSetVirtue", {
     end
 })
 
+ix.command.Add("CharGiveWP", {
+    description = "Give Willpower to a character, up to their maximum.",
+    privilege = "Manage Character Attributes",
+    adminOnly = true,
+    arguments = {ix.type.character, ix.type.number,},
+    OnRun = function(self, client, target, amount)
+        if amount < 0 then return "Cannot give negative WP." end 
+        target:SetData("SpentWP", target:GetData("SpentWP", 0) - amount)
+        if target:GetData("SpentWP") < 0 then target:SetData("SpentWP", 0) end 
+        return "Restored " .. amount .. " current Willpower to " .. target:GetName() 
+    end
+})
+
+ix.command.Add("CharTakeWP", {
+    description = "Take Willpower from a character.",
+    privilege = "Manage Character Attributes",
+    adminOnly = true,
+    arguments = {ix.type.character, ix.type.number,},
+    OnRun = function(self, client, target, amount)
+        if amount < 0 then return "Cannot take negative WP." end 
+        target:SetData("SpentWP", target:GetData("SpentWP", 0) + amount)
+        return "Took " .. amount .. " current Willpower from " .. target:GetName() 
+    end
+})
+
 ix.command.Add("CharSetVirtuePoints", {
     description = "Set virtue points for given character.",
     privilege = "Manage Character Attributes",
